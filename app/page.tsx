@@ -55,7 +55,15 @@ export default function Home() {
                         &#128526;
                     </h1>
                     <p className="text-md max-w-[500px] text-center md:text-left md:text-lg">
-                        A self-taught programmer based in Bogor West Java. Love to
+                        A self-taught programmer based in  
+                        <Link
+                            className="ml-1 relative z-10 font-semibold underline"
+                            href="https://en.wikipedia.org/wiki/Bogor"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            Bogor West Java
+                        </Link>. Love to
                         explore anything about data analytics, and web
                         development.
                     </p>
