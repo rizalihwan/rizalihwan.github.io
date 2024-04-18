@@ -38,66 +38,28 @@ export default function About() {
                         <Link href="#about">About</Link>
                     </h1>
                     <p>
-                        Hello, my name is <b>Rizal Ihwan Sulaiman</b>, an enthusiastic fresh graduate with a
-                        strong passion for <i>data analytics</i> and{" "}
-                        <i>full-stack development</i>.
+                        Hello, my name is <b>Rizal Ihwan Sulaiman</b> who is currently struggling in the programming world, 
+                        especially in the web development section. I am very familiar with <b>Laravel</b> framework and good at operating databases. 
+                        I really like challenges and always learn new things, and accept application projects based on client requests. 
+                        Apart from that, I am currently working at a state-owned company as a <i className="font-bold">Database Administrator, 
+                        Data Reconciliation Engineer & Technical Support.</i>
                     </p>
                     <p>
-                        I recently completed my studies in Mathematics at{" "}
-                        <Link
-                            target="_blank"
-                            className="underline"
-                            href="https://uns.ac.id/"
-                        >
-                            Sebelas Maret University
-                        </Link>
-                        , where I gained a solid foundation in analytical and
-                        programming abilities. Throughout my academic journey, I
-                        gained hands-on experience in data manipulation,
-                        statistical analysis, and data visualization using tools
-                        like <b>Python</b>, <b>SQL</b>, and <b>Tableau</b>.
+                        <i><b>"</b>The quality of a person is seen from his commitment to succeed in whatever field he pursues<b>"</b>.</i>
                     </p>
                     <p>
                         On the other hand, my love for technology and
                         programming led me to delve into the world of full-stack
-                        development. I am skilled in front-end technologies such
-                        as <b>Next.js</b> and <b>TailwindCSS</b>, as well as
-                        back-end technologies like <b>Laravel</b>.
+                        development. I am skilled in back-end technologies such
+                        as <b>Laravel</b> and <b>Lumen</b>, as well as
+                        front-end technologies like <b>Bootstrap, TailwindCSS</b> and <b>Next.js</b>.
                     </p>
                     <p>
-                        During my time as a student, I had the opportunity to
-                        join internship and intensive bootcamp as part of
-                        Ministry of Education{" "}
-                        <Link
-                            target="_blank"
-                            className="underline"
-                            href="https://kampusmerdeka.kemdikbud.go.id/"
-                        >
-                            program
-                        </Link>
-                        , such as junior web developer intern at{" "}
-                        <Link
-                            target="_blank"
-                            className="underline"
-                            href="https://www.tigaserangkai.com/"
-                        >
-                            PT. Tiga Serangkai
-                        </Link>
-                        , and data analysis participant at{" "}
-                        <Link
-                            target="_blank"
-                            className="underline"
-                            href="https://www.anakbangsabisa.org/generasi-gigih/"
-                        >
-                            Generasi Gigih 2.0
-                        </Link>
-                        . These experiences allowed me to expand my knowledge,
-                        and gained proficiency in data analytics and web
-                        development.
+                        During my time working at the current company I was entrusted to hold more advanced positions, initially a back-end developer now a Database Administrator, Data Reconciliation Engineer & Technical Support.
                     </p>
                     <p>
-                        Outside of programming thingy, I love playing games and
-                        listening music.
+                        Outside of work thingy, I love playing games and
+                        work out.
                     </p>
                 </section>
                 <section>
@@ -126,15 +88,15 @@ export default function About() {
                         ))}
                     </ul>
                     <p>
-                        Also, you can read my resume{" "}
+                        If you want to see a lot of the work I've made, you can visit{" "}
                         <Link
                             target="_blank"
                             className="underline"
-                            href="https://drive.google.com/file/d/1j57WTKkaJFEucTQEhl7qb5ZH2zPcwsT9/view?usp=sharing"
+                            href="https://github.com/rizalihwan"
                         >
-                            here
+                            my github
                         </Link>
-                        . Anyway, thanks for visiting my profile &#128591;
+                        . Cheers &#128591;
                     </p>
                 </section>
             </div>
