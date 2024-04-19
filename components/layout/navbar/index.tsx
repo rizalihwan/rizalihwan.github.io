@@ -4,16 +4,21 @@ import ThemeToggler from "./theme-toggler";
 
 const links = [
     {
-        text: "Blog",
-        url: "/blog",
+        text: "About",
+        url: "/about",
+    },
+    {
+        text: "Experience",
+        url: "/experience",
     },
     {
         text: "Projects",
         url: "/projects",
     },
     {
-        text: "About",
-        url: "/about",
+        text: "Blog",
+        url: "https://rizhalun.blogspot.com/",
+        target: "_blank",
     },
 ];
 
@@ -34,6 +39,7 @@ export default function Navbar() {
                                 key={i}
                                 href={link.url}
                                 className="rounded px-3 py-2.5 text-sm font-semibold transition duration-200 ease-in-out hover:bg-zinc-100 dark:hover:bg-zinc-800"
+                                target={link.target}
                             >
                                 {link.text}
                             </Link>

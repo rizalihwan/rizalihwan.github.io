@@ -50,28 +50,28 @@ const spt = {
 };
 
 const project: ProjectType[] = [
-    // {
-    //     title: "Akhamr!",
-    //     image: "/projects/akhamr.webp",
-    //     description:
-    //         "My personal blog and portfolio website built with Spotify API and a lot of stress...",
-    //     createdAt: "2023-08-10",
-    //     technology: [nextjs, tw, mdx, spt],
-    //     url: "https://akhamr.me/",
-    //     source: "https://github.com/akhamr/portfolio",
-    //     font: "font-doodle",
-    // },
-    // {
-    //     title: "Bot-I.",
-    //     image: "/projects/boti.webp",
-    //     description:
-    //         "An AI-based chatbot built with Next.js, Vercel KV, and OpenAI API.",
-    //     createdAt: "2024-02-14",
-    //     technology: [nextjs, tw, vc, ai],
-    //     url: "https://boti.akhamr.me/",
-    //     source: "https://github.com/akhamr/boti",
-    //     font: "font-della",
-    // },
+    {
+        title: "Akhamr!",
+        image: "/projects/akhamr.webp",
+        description:
+            "My personal blog and portfolio website built with Spotify API and a lot of stress...",
+        createdAt: "2023-08-10",
+        technology: [nextjs, tw, mdx, spt],
+        url: "https://akhamr.me/",
+        source: "https://github.com/akhamr/portfolio",
+        font: "font-doodle",
+    },
+    {
+        title: "Bot-I.",
+        image: "/projects/boti.webp",
+        description:
+            "An AI-based chatbot built with Next.js, Vercel KV, and OpenAI API.",
+        createdAt: "2024-02-14",
+        technology: [nextjs, tw, vc, ai],
+        url: "https://boti.akhamr.me/",
+        source: "https://github.com/akhamr/boti",
+        font: "font-della",
+    },
 ];
 
 export default project;
