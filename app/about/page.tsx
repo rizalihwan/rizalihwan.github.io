@@ -45,7 +45,7 @@ export default function About() {
                         Data Reconciliation Engineer & Technical Support.</i>
                     </p>
                     <p>
-                        <i><b>"</b>The quality of a person is seen from his commitment to succeed in whatever field he pursues<b>"</b>.</i>
+                        <i><b>&#8220;</b>The quality of a person is seen from his commitment to succeed in whatever field he pursues<b>&#8220;</b>.</i>
                     </p>
                     <p>
                         On the other hand, my love for technology and
@@ -67,8 +67,8 @@ export default function About() {
                         <Link href="#contact">Contact</Link>
                     </h1>
                     <p>
-                        I’m always excited to connect with everyone so please
-                        don’t hesitate to reach out by following my social media
+                        I&apos;m always excited to connect with everyone so please
+                        don&apos;t hesitate to reach out by following my social media
                         below:
                     </p>
                     <ul>
@@ -88,7 +88,7 @@ export default function About() {
                         ))}
                     </ul>
                     <p>
-                        If you want to see a lot of the work I've made, you can visit{" "}
+                        If you want to see a lot of the work I&apos;ve made, you can visit{" "}
                         <Link
                             target="_blank"
                             className="underline"
