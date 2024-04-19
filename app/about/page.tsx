@@ -96,7 +96,7 @@ export default function About() {
                         >
                             my github
                         </Link>
-                        . Cheers &#128591;
+                        . Cheers🍻
                     </p>
                 </section>
             </div>
