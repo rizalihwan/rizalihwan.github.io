@@ -62,7 +62,7 @@ export default function Home() {
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            bogor west java
+                            Bogor West Java
                         </Link>. Love to
                         explore anything about data analyst, and web
                         development.
