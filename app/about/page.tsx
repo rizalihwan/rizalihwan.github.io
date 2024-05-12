@@ -39,13 +39,13 @@ export default function About() {
                     </h1>
                     <p>
                         Hello, my name is <b>Rizal Ihwan Sulaiman</b> who is
-                        currently struggling in the programming world,
-                        especially in the web development section. I am very
+                        currently struggling in the programming world. I am very
                         familiar with <b>Laravel</b> framework and good at
-                        operating databases. I really like challenges and always
-                        learn new things, and accept application projects based
-                        on client requests. Apart from that, I am currently
-                        working at a state-owned company as a{" "}
+                        operating databases. And recently I'm diving into{" "}
+                        <b>Golang</b>. I really like challenges and always learn
+                        new things, and accept application projects based on
+                        client requests. Apart from that, I am currently working
+                        at a state-owned company as a{" "}
                         <i className="font-bold">
                             Database Administrator, Data Reconciliation Engineer
                             & Technical Support.
@@ -62,9 +62,10 @@ export default function About() {
                         On the other hand, my love for technology and
                         programming led me to delve into the world of full-stack
                         development. I am skilled in back-end technologies such
-                        as <b>Laravel</b> and <b>Lumen</b>, as well as front-end
-                        technologies like <b>Bootstrap, TailwindCSS</b> and{" "}
-                        <b>Next.js</b>.
+                        as <b>Laravel, Lumen</b> and <b>Golang</b>(beginner) as
+                        well as front-end technologies like{" "}
+                        <b>Bootstrap, TailwindCSS</b> and <b>Next.js</b>
+                        (beginner).
                     </p>
                     <p>
                         During my time working at the current company I was
@@ -87,7 +88,7 @@ export default function About() {
                             <p className="font-bold">Backend Development</p>
                             <p>
                                 Creating RestfullAPI using Laravel or Lumen
-                                framework.
+                                framework. And recently I'm diving into Golang.
                             </p>
                         </li>
                         <li>
@@ -103,11 +104,11 @@ export default function About() {
                                 Data Reconciliation Engineer
                             </p>
                             <p>
-                                Compare financial data and create financial
-                                minutes using Microsoft tools such as Microsoft
-                                Excel, Word and others. Create SQL queries
-                                independently to extract the data needed for
-                                reconciliation.
+                                Compare financial data and create minutes of
+                                hand over using Microsoft tools such as
+                                Microsoft Excel, Word and others. Create SQL
+                                queries independently to extract the data needed
+                                for reconciliation.
                             </p>
                         </li>{" "}
                         <li>
@@ -117,8 +118,31 @@ export default function About() {
                                 payment failures, server problems, data
                                 corruption and others to be repaired. Create SQL
                                 queries and perform CRUD actions to fix data
-                                problems in existing applications.
+                                problems in existing applications. Install &
+                                configure software and hardware, Provide
+                                customer assistance, Responding user inquiries,
+                                Run diagnostic problem to resolve problem, etc.
                             </p>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h1 id="skills" className="my-4">
+                        <Link href="#skills">Skills</Link>
+                    </h1>
+                    <p>Some of the tech stacks that I master:</p>
+                    <ul>
+                        <li>
+                            <p className="font-bold">Back End Development</p>
+                            <p>Golang(is deepening), Laravel, Lumen.</p>
+                        </li>
+                        <li>
+                            <p className="font-bold">Front End Development</p>
+                            <p>Next JS(beginner), Tailwind CSS, Bootstrap.</p>
+                        </li>
+                        <li>
+                            <p className="font-bold">Other Tools</p>
+                            <p>Git & Github, SQL, Microsoft Tools & etc.</p>
                         </li>
                     </ul>
                 </section>
