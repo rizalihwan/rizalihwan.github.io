@@ -20,7 +20,7 @@ export default async function Blog() {
                 Projects
             </h1>
             <p className="mt-2">Some collection of my past works.</p>
-            {filteredProject.length > 0 ? (
+            {/* {filteredProject.length > 0 ? (
                 <div className="space-y-6 py-4">
                     {filteredProject.map((project, i) => (
                         <div
@@ -113,7 +113,7 @@ export default async function Blog() {
                 </div>
             ) : (
                 <p>No project.</p>
-            )}
+            )} */}
         </section>
     );
 }
