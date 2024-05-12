@@ -41,7 +41,7 @@ export default function About() {
                         Hello, my name is <b>Rizal Ihwan Sulaiman</b> who is
                         currently struggling in the programming world. I am very
                         familiar with <b>Laravel</b> framework and good at
-                        operating databases. And recently I'm diving into{" "}
+                        operating databases. And recently I am diving into{" "}
                         <b>Golang</b>. I really like challenges and always learn
                         new things, and accept application projects based on
                         client requests. Apart from that, I am currently working
@@ -88,7 +88,8 @@ export default function About() {
                             <p className="font-bold">Backend Development</p>
                             <p>
                                 Creating RestfullAPI using Laravel or Lumen
-                                framework. And recently I'm diving into Golang.
+                                framework. And recently I am diving into
+                                Golang.
                             </p>
                         </li>
                         <li>
