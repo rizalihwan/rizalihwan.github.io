@@ -19,6 +19,10 @@ const socials = [
         name: "Instagram",
         url: "https://www.instagram.com/rizalihwann/",
     },
+    {
+        name: "Facebook",
+        url: "https://web.facebook.com/rizalihwann/",
+    },
 ];
 
 export const metadata: Metadata = {
@@ -39,13 +43,14 @@ export default function About() {
                     </h1>
                     <p>
                         Hello, my name is <b>Rizal Ihwan Sulaiman</b> who is
-                        currently struggling in the programming world. I am very
-                        familiar with <b>Laravel</b> framework and good at
-                        operating databases. And recently I am diving into{" "}
-                        <b>Golang</b>. I really like challenges and always learn
-                        new things, and accept application projects based on
-                        client requests. Apart from that, I am currently working
-                        at a state-owned company as a{" "}
+                        currently struggling in the programming world with a
+                        strong focus on back-end development. I am very familiar
+                        with <b>Laravel</b> framework and good at operating
+                        databases. And recently I am diving into <b>Golang</b>.
+                        I really like challenges and always learn new things,
+                        and accept application projects based on client
+                        requests. Apart from that, I am currently working at a
+                        state-owned company as a{" "}
                         <i className="font-bold">
                             Database Administrator, Data Reconciliation Engineer
                             & Technical Support.
@@ -85,18 +90,17 @@ export default function About() {
                     <p>Some of the services that I can create are as below:</p>
                     <ul>
                         <li>
-                            <p className="font-bold">Backend Development</p>
+                            <p className="font-bold">Back End Development</p>
                             <p>
                                 Creating RestfullAPI using Laravel or Lumen
-                                framework. And recently I am diving into
-                                Golang.
+                                framework. And recently I am diving into Golang.
                             </p>
                         </li>
                         <li>
                             <p className="font-bold">Web Development</p>
                             <p>
                                 Serving website development from scratch that is
-                                Dynamic or Static, from front view to backend &
+                                Dynamic or Static, from front view to back-end &
                                 database integration.
                             </p>
                         </li>
@@ -107,11 +111,20 @@ export default function About() {
                             <p>
                                 Compare financial data and create minutes of
                                 hand over using Microsoft tools such as
-                                Microsoft Excel, Word and others. Create SQL
-                                queries independently to extract the data needed
-                                for reconciliation.
+                                Microsoft Excel Vlookup, Word and others. Create
+                                SQL queries independently to extract the data
+                                needed for reconciliation.
                             </p>
-                        </li>{" "}
+                        </li>
+                        <li>
+                            <p className="font-bold">Database Administrator</p>
+                            <p>
+                                Create SQL queries to identify suspect data,
+                                provide custom column data for company needs,
+                                create queries to view summary, transaction,
+                                average, sum, count & others.
+                            </p>
+                        </li>
                         <li>
                             <p className="font-bold">Technical Support</p>
                             <p>
@@ -142,8 +155,21 @@ export default function About() {
                             <p>Next JS(beginner), Tailwind CSS, Bootstrap.</p>
                         </li>
                         <li>
+                            <p className="font-bold">Database Administrator</p>
+                            <p>MySQL, PostgreSQL, Linux Server.</p>
+                        </li>
+                        <li>
+                            <p className="font-bold">
+                                Data Reconciliation Engineer
+                            </p>
+                            <p>Excel Vlookup, Word & etc.</p>
+                        </li>
+                        <li>
                             <p className="font-bold">Other Tools</p>
-                            <p>Git & Github, SQL, Microsoft Tools & etc.</p>
+                            <p>
+                                Git & Github, SQL, Mobaxterm, Microsoft Tools &
+                                etc.
+                            </p>
                         </li>
                     </ul>
                 </section>
