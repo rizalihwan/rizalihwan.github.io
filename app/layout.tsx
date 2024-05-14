@@ -9,12 +9,14 @@ import Providers from "@/components/providers";
 
 export const metadata: Metadata = {
     metadataBase: new URL(`https://rizalihwan.me`),
+    icons: {
+        icon: "/laravel.ico",
+    },
     title: {
         template: "Rizal Ihwan - %s",
         default: "It's me, rizal!",
     },
-    description:
-        "My personal portfolio website built with heart and love.",
+    description: "My personal portfolio website built with heart and love.",
 };
 
 export default function RootLayout({
