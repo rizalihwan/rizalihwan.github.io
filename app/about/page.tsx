@@ -67,8 +67,8 @@ export default function About() {
                         On the other hand, my love for technology and
                         programming led me to delve into the world of full-stack
                         development. I am skilled in back-end technologies such
-                        as <b>Laravel, Lumen</b> and <b>Golang</b>(beginner) as
-                        well as front-end technologies like{" "}
+                        as <b>Laravel, Lumen</b> and <b>Golang</b>(is deepening)
+                        as well as front-end technologies like{" "}
                         <b>Bootstrap, TailwindCSS</b> and <b>Next.js</b>
                         (beginner).
                     </p>
