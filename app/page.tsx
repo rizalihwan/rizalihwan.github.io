@@ -65,7 +65,7 @@ export default function Home() {
                             Bogor West Java
                         </Link>
                         . Love to explore anything about programming and data
-                        engineering reconciliation.
+                        analytics.
                     </p>
                     <p className="text-md max-w-[500px] text-center md:text-left md:text-lg">
                         {"Checkout my "}
