@@ -4,6 +4,10 @@ import Link from "next/link";
 
 const socials = [
     {
+        name: "Blog",
+        url: "https://rizhalun.blogspot.com/",
+    },
+    {
         name: "Email",
         url: "mailto:rizalihwan94@gmail.com",
     },

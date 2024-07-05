@@ -16,11 +16,6 @@ const links = [
         text: "Projects",
         url: "/projects",
     },
-    {
-        text: "Blog",
-        url: "https://rizhalun.blogspot.com/",
-        target: "_blank",
-    },
 ];
 
 export default function MobileMenu() {
@@ -49,7 +44,6 @@ export default function MobileMenu() {
                                     <Link
                                         key={i}
                                         href={link.url}
-                                        target={link.target}
                                         className="block rounded px-3 py-2 font-semibold transition duration-100 ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-700"
                                     >
                                         {link.text}
