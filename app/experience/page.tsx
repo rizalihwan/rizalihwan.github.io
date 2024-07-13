@@ -1,119 +1,183 @@
 import type { Metadata } from "next";
-import { IconArrow, IconCode } from "@/components/icons";
-import projects from "@/data/projects";
-import Image from "next/image";
+import Blob from "@/components/blob";
 import Link from "next/link";
-const day = require("dayjs");
 
 export const metadata: Metadata = {
     title: "Experiences",
     description: "Some of my experiences.",
 };
 
-export default async function Blog() {
-    const filteredProject = projects.sort(
-        (a, b) => Number(new Date(b.createdAt)) - Number(new Date(a.createdAt))
-    );
+export default function Experience() {
     return (
-        <section id="projects-content">
-            <h1 className="mt-4 pt-3 text-4xl md:mt-11 md:text-6xl">
-                Experience
-            </h1>
-            <p className="mt-2">Some of my experiences.</p>
-            {/* {filteredProject.length > 0 ? (
-                <div className="space-y-6 py-4">
-                    {filteredProject.map((project, i) => (
-                        <div
-                            className="flex flex-col rounded-md border-2 border-dashed border-gray-200 dark:border-gray-800 md:flex-row"
-                            key={i}
-                        >
-                            <Image
-                                className="rounded"
-                                width="489"
-                                height="256"
-                                src={project.image}
-                                alt={project.title}
-                                placeholder="blur"
-                                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNMqwcAAVEA58giG6IAAAAASUVORK5CYII="
-                            />
-                            <div className="flex max-w-md flex-col justify-between p-4 md:p-6">
-                                <div>
-                                    <h1
-                                        className={`${project.font} line-clamp-2`}
-                                    >
-                                        {project.title}
-                                    </h1>
-                                    <p className="py-2 text-xs text-gray-700 dark:text-gray-300 md:text-sm">
-                                        Created at{" "}
-                                        {day(project.createdAt).format(
-                                            "MMMM YYYY"
-                                        )}
-                                    </p>
-                                    <p className="line-clamp-2 text-sm md:text-base">
-                                        {project.description}
-                                    </p>
-                                    <div className="flex space-x-2 pt-3">
-                                        {project.technology?.map(
-                                            (tech, idx) => (
-                                                <div
-                                                    className={`${
-                                                        tech.color ||
-                                                        "bg-gray-300 dark:bg-gray-700"
-                                                    } rounded-sm px-1 py-0.5 text-[11px] font-semibold uppercase md:text-xs`}
-                                                    key={idx}
-                                                >
-                                                    {tech.url ? (
-                                                        <Link
-                                                            target="_blank"
-                                                            href={tech.url}
-                                                        >
-                                                            {tech.name}
-                                                        </Link>
-                                                    ) : (
-                                                        tech.name
-                                                    )}
-                                                </div>
-                                            )
-                                        )}
-                                    </div>
-                                </div>
-                                <div className="mt-4 flex space-x-4 font-bold md:text-lg">
-                                    {project.url && (
-                                        <>
-                                            <Link
-                                                target="_blank"
-                                                className="inline-flex items-center hover:underline"
-                                                href={project.url}
-                                            >
-                                                <IconArrow className="md:size-5" />
-                                                <p className="pl-2">
-                                                    Visit Project
-                                                </p>
-                                            </Link>
-                                        </>
-                                    )}
-                                    {project.source && (
-                                        <>
-                                            <Link
-                                                target="_blank"
-                                                className="inline-flex items-center hover:underline"
-                                                href={project.source}
-                                            >
-                                                <IconCode className="md:size-5" />
-                                                <p className="pl-2">
-                                                    Source Code
-                                                </p>
-                                            </Link>
-                                        </>
-                                    )}
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            ) : (
-                <p>No project.</p>
-            )} */}
+        <section id="experience-content" className="mb-6 max-w-3xl">
+            <div className="prose max-w-full dark:prose-dark">
+                <section>
+                    <h1 id="services" className="my-4">
+                        <Link href="#services">Experience</Link>
+                    </h1>
+                    <hr />
+                    <div className="pb-3">
+                        <h5>
+                            <p className="font-bold underline">WORK</p>
+                        </h5>
+                        <ul>
+                            <li>
+                                <h6 className="font-bold">
+                                    PLN ICON PLUS
+                                    <br />
+                                    Technical Support & Engineer Data
+                                    Reconciliation PLN Mobile
+                                    <br />[ October 2022 - Present ]
+                                </h6>
+                                <p>
+                                    - Recon financial data and create minutes of
+                                    hand over PLN Marketplace.
+                                    <br />
+                                    - Recon financial data and create minutes of
+                                    hand over PLN Herald Run.
+                                    <br />
+                                    - Recon financial data and create minutes of
+                                    hand over PLN IconCash.
+                                    <br />
+                                    - Recon financial data and create minutes of
+                                    hand over PLN Color Run.
+                                    <br />
+                                    - Recon financial data and create minutes of
+                                    hand over PLN Proliga.
+                                    <br />
+                                    - Recon financial data and create minutes of
+                                    hand over PLN Periklindo.
+                                    <br />
+                                    - Recon financial data and create minutes of
+                                    hand over PLN IconPay Biller Aggregator.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN Disbursement.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN ListriQu.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN Nidi.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN Order Bundling.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN Voltrik.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN Merchandise.
+                                    <br />- Creating user application usage
+                                    instructions for PLN Marketplace.
+                                    <br />- Transfer of Knowledge for UMKM &
+                                    Official Partner Merchant PLN Marketplace.
+                                    <br />- Fixed an issue where users
+                                    experienced problems with the PLN
+                                    Marketplace Application.
+                                    <br />- Become a PLN Marketplace Admin for
+                                    UMKM & Official Partner Merchant PLN.
+                                    <br />- Creating SQL Query for
+                                    reconciliation, identification, sales
+                                    report, fixing data & others.
+                                    <br />- Carry out payment flagging on
+                                    payment failure data.
+                                    <br />- Monitoring servers with Grafana and
+                                    others to service all PLN Mobile products.
+                                </p>
+                                <h6 className="font-bold">
+                                    Backend Developer
+                                    <br />[ August 2021 - October 2022 ]
+                                </h6>
+                                <p>
+                                    - Creating API, Bug Fixing & Enhancement for
+                                    PLN Mobile Core API.
+                                    <br />- Creating API, Bug Fixing &
+                                    Enhancement for PLN Marketplace Back Office
+                                    Tools API.
+                                    <br />- Creating API, Bug Fixing &
+                                    Enhancement for PLN Marketplace Mobile API.
+                                    <br />- Creating API, Bug Fixing &
+                                    Enhancement for PLN Insurance API.
+                                </p>
+                            </li>
+                            <li>
+                                <h6 className="font-bold">
+                                    MINISTRY OF FOREIGN AFFAIRS OF THE REPUBLIC
+                                    OF INDONESIA
+                                    <br />
+                                    Fullstack Developer
+                                    <br />[ Juny 2021 - March 2022 ]
+                                </h6>
+                                <p>
+                                    Creating LMS (Learning Management System)
+                                    Called CETO (Centre for Education and Online
+                                    Training) Application to facilitate the
+                                    learning system at the Ministry of Foreign
+                                    Affairs (Ministry of Foreign Affairs of the
+                                    Republic of Indonesia).
+                                </p>
+                            </li>
+                            <li>
+                                <h6 className="font-bold">
+                                    KREASI ASIA
+                                    <br />
+                                    Backend Developer & Quality Assurance
+                                    Engineer
+                                    <br />[ February 2021 - February 2022 ]
+                                </h6>
+                                <p>
+                                    - Creating TNI AD Financial Application
+                                    (Accounting) Website created to facilitate
+                                    transactions around accounting and record
+                                    reports based on modules such as Profit and
+                                    Loss, Balance Sheet, General Journal etc.
+                                    <br /> - Creating eKPR TWPAD Application this website
+                                    was created to make it easier for TNI AD
+                                    personnel to buy houses.
+                                </p>
+                            </li>
+                            <li>
+                                <h6 className="font-bold">
+                                    LASKAR TEKNOLOGI MULIA(CYBERLABS)
+                                    <br />
+                                    Internship
+                                    <br />[ October 2020 - December 2020 ]
+                                </h6>
+                                <p>
+                                    - Creating Tropisianimal Company Profile
+                                    Application using the Laravel framework.
+                                    <br />- Creating Articles on Blogger.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <h5>
+                        <p className="font-bold underline">EDUCATION</p>
+                    </h5>
+                    <ul>
+                        <li>
+                            <h6 className="font-bold">
+                                UNIVERSITAS BINANIAGA INDONESIA
+                                <br />
+                                Sistem Informasi
+                            </h6>
+                            <p>
+                                I started studying at this university in the
+                                information systems study program.
+                            </p>
+                        </li>
+                        <li>
+                            <h6 className="font-bold">
+                                SMK WIKRAMA BOGOR
+                                <br />
+                                Rekayasa Perangkat Lunak
+                                <br />[ 2018 - 2021 ]
+                            </h6>
+                            <p>
+                                Learning the basics of programming. starting
+                                with the algorithm, flowchart, then programming
+                                languages like flutter, c++, c#, vb.net, ruby,
+                                java, php & javascript.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
         </section>
     );
 }
