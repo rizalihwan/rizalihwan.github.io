@@ -113,7 +113,7 @@ const project: ProjectType[] = [
         description:
             "A website created for a learning management system for foreign ministry staff.",
         createdFor: "Company Project",
-        technology: [laravel, bootstrap, mysql, cpanel, git],
+        technology: [laravel, bootstrap, pg, cpanel, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
