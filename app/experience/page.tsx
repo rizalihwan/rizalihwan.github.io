@@ -62,6 +62,14 @@ export default function Experience() {
                                     minutes of hand over PLN Voltrik.
                                     <br />- Recon financial data and create
                                     minutes of hand over PLN Merchandise.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN Electric Run.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN Merchandise.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN Ardan Senja Syahdu.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN EcoFest.
                                     <br />- Creating user application usage
                                     instructions for PLN Marketplace.
                                     <br />- Transfer of Knowledge for UMKM &
@@ -126,9 +134,9 @@ export default function Experience() {
                                     transactions around accounting and record
                                     reports based on modules such as Profit and
                                     Loss, Balance Sheet, General Journal etc.
-                                    <br /> - Creating eKPR TWPAD Application this website
-                                    was created to make it easier for TNI AD
-                                    personnel to buy houses.
+                                    <br /> - Creating eKPR TWPAD Application
+                                    this website was created to make it easier
+                                    for TNI AD personnel to buy houses.
                                 </p>
                             </li>
                             <li>
