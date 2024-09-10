@@ -3,6 +3,7 @@ import { IconArrow, IconCode } from "@/components/icons";
 import projects from "@/data/projects";
 import Image from "next/image";
 import Link from "next/link";
+import { Img } from "@/components/mdx-components";
 const day = require("dayjs");
 
 export const metadata: Metadata = {
@@ -11,16 +12,14 @@ export const metadata: Metadata = {
 };
 
 export default async function Blog() {
-    const filteredProject = projects.sort(
-        (a, b) => Number(new Date(b.createdAt)) - Number(new Date(a.createdAt))
-    );
+    const filteredProject = projects.sort();
     return (
         <section id="projects-content">
             <h1 className="mt-4 pt-3 text-4xl md:mt-11 md:text-6xl">
                 Projects
             </h1>
             <p className="mt-2">Some collection of my past works.</p>
-            {/* {filteredProject.length > 0 ? (
+            {filteredProject.length > 0 ? (
                 <div className="space-y-6 py-4">
                     {filteredProject.map((project, i) => (
                         <div
@@ -43,11 +42,8 @@ export default async function Blog() {
                                     >
                                         {project.title}
                                     </h1>
-                                    <p className="py-2 text-xs text-gray-700 dark:text-gray-300 md:text-sm">
-                                        Created at{" "}
-                                        {day(project.createdAt).format(
-                                            "MMMM YYYY"
-                                        )}
+                                    <p className="py-2 text-xs text-gray-700 dark:text-gray-300 md:text-sm font-della">
+                                        {"[ " + project.createdFor + " ]"}
                                     </p>
                                     <p className="line-clamp-2 text-sm md:text-base">
                                         {project.description}
@@ -87,7 +83,7 @@ export default async function Blog() {
                                             >
                                                 <IconArrow className="md:size-5" />
                                                 <p className="pl-2">
-                                                    Visit Project
+                                                    Detail Project
                                                 </p>
                                             </Link>
                                         </>
@@ -98,12 +94,7 @@ export default async function Blog() {
                                                 target="_blank"
                                                 className="inline-flex items-center hover:underline"
                                                 href={project.source}
-                                            >
-                                                <IconCode className="md:size-5" />
-                                                <p className="pl-2">
-                                                    Source Code
-                                                </p>
-                                            </Link>
+                                            ></Link>
                                         </>
                                     )}
                                 </div>
@@ -113,7 +104,7 @@ export default async function Blog() {
                 </div>
             ) : (
                 <p>No project.</p>
-            )} */}
+            )}
         </section>
     );
 }
