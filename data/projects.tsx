@@ -1,7 +1,7 @@
 type ProjectType = {
     title: string;
     description: string;
-    createdAt: string;
+    createdFor: string;
     image: string | any;
     technology?: {
         name: string;
@@ -13,16 +13,52 @@ type ProjectType = {
     font: string;
 };
 
-const nextjs = {
-    name: "nextjs",
+const git = {
+    name: "git",
     color: "bg-slate-300 dark:bg-slate-600",
-    url: "https://nextjs.org/",
+    url: "https://github.com/",
 };
 
-const mdx = {
-    name: "mdx",
+const laravel = {
+    name: "laravel",
+    color: "bg-red-300 dark:bg-red-600",
+    url: "https://laravel.com/",
+};
+
+const mat = {
+    name: "materializecss",
+    color: "bg-pink-300 dark:bg-pink-600",
+    url: "https://materializecss.com/",
+};
+
+const bootstrap = {
+    name: "bootstrap",
+    color: "bg-indigo-300 dark:bg-indigo-600",
+    url: "https://getbootstrap.com/",
+};
+
+const mysql = {
+    name: "mysql",
     color: "bg-amber-300 dark:bg-amber-600",
-    url: "https://mdxjs.com/",
+    url: "https://www.mysql.com/",
+};
+
+const cpanel = {
+    name: "cpanel",
+    color: "bg-emerald-300 dark:bg-emerald-600",
+    url: "https://cpanel.net/",
+};
+
+const vue = {
+    name: "vuejs",
+    color: "bg-emerald-300 dark:bg-emerald-600",
+    url: "https://vuejs.org/",
+};
+
+const pg = {
+    name: "postgresql",
+    color: "bg-emerald-300 dark:bg-emerald-600",
+    url: "https://www.postgresql.org/",
 };
 
 const tw = {
@@ -37,40 +73,204 @@ const vc = {
     url: "https://sdk.vercel.ai/",
 };
 
-const ai = {
-    name: "openai",
-    color: "bg-emerald-300 dark:bg-emerald-600",
-    url: "https://platform.openai.com/",
-};
-
-const spt = {
-    name: "spotify",
-    color: "bg-green-300 dark:bg-green-600",
-    url: "https://developer.spotify.com/",
-};
-
 const project: ProjectType[] = [
     {
-        title: "Akhamr!",
-        image: "/projects/akhamr.webp",
+        title: "Ditkuad Accounting",
+        image: "/projects/akunting/1.png",
         description:
-            "My personal blog and portfolio website built with Spotify API and a lot of stress...",
-        createdAt: "2023-08-10",
-        technology: [nextjs, tw, mdx, spt],
-        url: "https://akhamr.me/",
-        source: "https://github.com/akhamr/portfolio",
+            "A website created to facilitate accounting transactions and record reports based on modules such as profit and loss, balance sheet, general journal, etc.",
+        createdFor: "Company Project",
+        technology: [laravel, bootstrap, mysql, cpanel, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
         font: "font-doodle",
     },
     {
-        title: "Bot-I.",
-        image: "/projects/boti.webp",
+        title: "Perpustakaan",
+        image: "/projects/perpus/2.png",
         description:
-            "An AI-based chatbot built with Next.js, Vercel KV, and OpenAI API.",
-        createdAt: "2024-02-14",
-        technology: [nextjs, tw, vc, ai],
-        url: "https://boti.akhamr.me/",
-        source: "https://github.com/akhamr/boti",
-        font: "font-della",
+            "A website created to facilitate borrowing & returning books at the library. And at the same time I made this project open source to be studied by everyone and is already available on my github.",
+        createdFor: "Open Source Study Project",
+        technology: [laravel, bootstrap, tw, pg, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "eKPR TWPAD",
+        image: "/projects/etwpad/1.PNG",
+        description:
+            "A website was created to make it easier for TNI AD personnel to make home installment payments.",
+        createdFor: "Company Project",
+        technology: [laravel, bootstrap, mysql, cpanel, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "LMS Kemlu",
+        image: "/projects/lms/1.png",
+        description:
+            "A website created for a learning management system for foreign ministry staff.",
+        createdFor: "Company Project",
+        technology: [laravel, bootstrap, mysql, cpanel, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "PPDB Online",
+        image: "/projects/ppdb/1.png",
+        description:
+            "A school website created to facilitate the acceptance of new students digitally. And in it there is information and content about the school.",
+        createdFor: "Study Project",
+        technology: [laravel, bootstrap, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "Point of Sales",
+        image: "/projects/pos/9.png",
+        description:
+            "A website to simplify the sales or purchasing process in retail businesses, so that customers can make payments faster.",
+        createdFor: "Freelance Project",
+        technology: [laravel, mat, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "Tropisianimal",
+        image: "/projects/tropisi/3.png",
+        description:
+            "A website created to further introduce animal husbandry managed by the company tropisianimal to be known by more people. And this is one of my internship projects at cyberlabs.",
+        createdFor: "Internship Project",
+        technology: [laravel, bootstrap, mat, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "SIMRS",
+        image: "/projects/simrs/2.png",
+        description:
+            "A website created to facilitate and manage the information system in the hospital.",
+        createdFor: "Freelance Project",
+        technology: [laravel, bootstrap, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "BordirKuy Landing Page",
+        image: "/projects/bordirkuy/1.png",
+        description:
+            "An embroidery shop landing page website was created to further introduce its embroidery services so that everyone can see it easily anywhere and anytime.",
+        createdFor: "Freelance Project",
+        technology: [bootstrap, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "E-Ticketing",
+        image: "/projects/ticketing/2.png",
+        description:
+            "This e-ticketing website is made to make it easier for everyone who will travel by bus. And before leaving, you must book first..",
+        createdFor: "Freelance Project",
+        technology: [laravel, bootstrap, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "Wedding App",
+        image: "/projects/wedding/1.png",
+        description:
+            "A digital wedding invitation website that contains detailed information such as the wedding address and personal data of both partners.",
+        createdFor: "Freelance Project",
+        technology: [vue, tw, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "Digital Presence",
+        image: "/projects/presence/8.png",
+        description:
+            "A website was created to help teachers in the digital student attendance process, and a selfie feature is registered using the camera when students are going to take attendance, and when they are absent, the date and time of the student's attendance will be automatically recorded.",
+        createdFor: "Freelance Project",
+        technology: [laravel, bootstrap, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "SIM Rayon",
+        image: "/projects/simrayon/1.png",
+        description:
+            "A website created to help improve the effectiveness and efficiency of school management teacher activities, student information and parent-teacher relationships digitally.",
+        createdFor: "Study Project",
+        technology: [laravel, bootstrap, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "Supervisor Digital",
+        image: "/projects/supervisor/3.png",
+        description:
+            "A website created to handle the school learning system online so that teachers can give assignments easily and effectively. And it is equipped with a feature for assessing assignments given by teachers for their supervisor roles & a report feature to be viewed by the principal, and many more features.",
+        createdFor: "Study Project",
+        technology: [laravel, bootstrap, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "Employee Presence",
+        image: "/projects/absensi/4.png",
+        description:
+            "A website created to handle the school learning system online so that teachers can give assignments easily and effectively. And it is equipped with a feature for assessing assignments given by teachers for their supervisor roles & a report feature to be viewed by the principal, and many more features.",
+        createdFor: "Study Project",
+        technology: [laravel, bootstrap, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "Family Tree",
+        image: "/projects/silsilah/1.png",
+        description:
+            "A website created to determine genealogy in a family, and I created this project to practice if conditional logic and correct my relational database.",
+        createdFor: "Study Project",
+        technology: [laravel, bootstrap, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "Covid Risk Test",
+        image: "/projects/covid/1.png",
+        description:
+            "A website created to find out how far you are affected by the risk of the corona virus.",
+        createdFor: "Study Project",
+        technology: [bootstrap, cpanel, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "Digital Agenda",
+        image: "/projects/agenda/1.png",
+        description:
+            "A website application created to make it easier to list daily activities digitally.",
+        createdFor: "Study Project",
+        technology: [laravel, bootstrap, mysql, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
     },
 ];
 
