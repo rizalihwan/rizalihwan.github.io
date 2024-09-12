@@ -219,7 +219,7 @@ const project: ProjectType[] = [
         description:
             "A digital wedding invitation website that contains detailed information such as the wedding address and personal data of both partners.",
         createdFor: "Freelance Project",
-        asPosition: "Fullstack",
+        asPosition: "Frontend",
         technology: [vue, tw, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
