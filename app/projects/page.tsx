@@ -43,7 +43,7 @@ export default async function Blog() {
                                         {project.title}
                                     </h1>
                                     <p className="py-2 text-xs text-gray-700 dark:text-gray-300 md:text-sm font-della">
-                                        {"[ " + project.createdFor + " ]"}
+                                        {"[ " + project.createdFor + " - " + "As " + project.asPosition + " ]"}
                                     </p>
                                     <p className="line-clamp-2 text-sm md:text-base">
                                         {project.description}

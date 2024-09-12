@@ -2,6 +2,7 @@ type ProjectType = {
     title: string;
     description: string;
     createdFor: string;
+    asPosition: string;
     image: string | any;
     technology?: {
         name: string;
@@ -35,6 +36,12 @@ const bootstrap = {
     name: "bootstrap",
     color: "bg-indigo-300 dark:bg-indigo-600",
     url: "https://getbootstrap.com/",
+};
+
+const lumen = {
+    name: "lumen",
+    color: "bg-amber-300 dark:bg-amber-600",
+    url: "https://lumen.laravel.com/",
 };
 
 const mysql = {
@@ -75,11 +82,24 @@ const vc = {
 
 const project: ProjectType[] = [
     {
+        title: "PLN Insurance",
+        image: "/projects/pln_insurance/1.png",
+        description:
+            "A webview that makes it easy for employees to register for various types of insurance provided by the company.",
+        createdFor: "Company Project",
+        asPosition: "Backend",
+        technology: [laravel, tw, pg, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
         title: "Ditkuad Accounting",
         image: "/projects/akunting/1.png",
         description:
             "A website created to facilitate accounting transactions and record reports based on modules such as profit and loss, balance sheet, general journal, etc.",
         createdFor: "Company Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, cpanel, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -91,6 +111,7 @@ const project: ProjectType[] = [
         description:
             "A website created to facilitate borrowing & returning books at the library. And at the same time I made this project open source to be studied by everyone and is already available on my github.",
         createdFor: "Open Source Study Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, tw, pg, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -102,6 +123,7 @@ const project: ProjectType[] = [
         description:
             "A website was created to make it easier for TNI AD personnel to make home installment payments.",
         createdFor: "Company Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, cpanel, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -113,6 +135,7 @@ const project: ProjectType[] = [
         description:
             "A website created for a learning management system for foreign ministry staff.",
         createdFor: "Company Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, pg, cpanel, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -124,6 +147,7 @@ const project: ProjectType[] = [
         description:
             "A school website created to facilitate the acceptance of new students digitally. And in it there is information and content about the school.",
         createdFor: "Study Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -135,6 +159,7 @@ const project: ProjectType[] = [
         description:
             "A website to simplify the sales or purchasing process in retail businesses, so that customers can make payments faster.",
         createdFor: "Freelance Project",
+        asPosition: "Fullstack",
         technology: [laravel, mat, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -146,6 +171,7 @@ const project: ProjectType[] = [
         description:
             "A website created to further introduce animal husbandry managed by the company tropisianimal to be known by more people. And this is one of my internship projects at cyberlabs.",
         createdFor: "Internship Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mat, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -157,6 +183,7 @@ const project: ProjectType[] = [
         description:
             "A website created to facilitate and manage the information system in the hospital.",
         createdFor: "Freelance Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -168,6 +195,7 @@ const project: ProjectType[] = [
         description:
             "An embroidery shop landing page website was created to further introduce its embroidery services so that everyone can see it easily anywhere and anytime.",
         createdFor: "Freelance Project",
+        asPosition: "Fullstack",
         technology: [bootstrap, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -179,6 +207,7 @@ const project: ProjectType[] = [
         description:
             "This e-ticketing website is made to make it easier for everyone who will travel by bus. And before leaving, you must book first..",
         createdFor: "Freelance Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -190,6 +219,7 @@ const project: ProjectType[] = [
         description:
             "A digital wedding invitation website that contains detailed information such as the wedding address and personal data of both partners.",
         createdFor: "Freelance Project",
+        asPosition: "Fullstack",
         technology: [vue, tw, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -201,6 +231,7 @@ const project: ProjectType[] = [
         description:
             "A website was created to help teachers in the digital student attendance process, and a selfie feature is registered using the camera when students are going to take attendance, and when they are absent, the date and time of the student's attendance will be automatically recorded.",
         createdFor: "Freelance Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -212,6 +243,7 @@ const project: ProjectType[] = [
         description:
             "A website created to help improve the effectiveness and efficiency of school management teacher activities, student information and parent-teacher relationships digitally.",
         createdFor: "Study Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -223,6 +255,7 @@ const project: ProjectType[] = [
         description:
             "A website created to handle the school learning system online so that teachers can give assignments easily and effectively. And it is equipped with a feature for assessing assignments given by teachers for their supervisor roles & a report feature to be viewed by the principal, and many more features.",
         createdFor: "Study Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -234,6 +267,7 @@ const project: ProjectType[] = [
         description:
             "A website created to handle the school learning system online so that teachers can give assignments easily and effectively. And it is equipped with a feature for assessing assignments given by teachers for their supervisor roles & a report feature to be viewed by the principal, and many more features.",
         createdFor: "Study Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -245,6 +279,7 @@ const project: ProjectType[] = [
         description:
             "A website created to determine genealogy in a family, and I created this project to practice if conditional logic and correct my relational database.",
         createdFor: "Study Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -256,6 +291,7 @@ const project: ProjectType[] = [
         description:
             "A website created to find out how far you are affected by the risk of the corona virus.",
         createdFor: "Study Project",
+        asPosition: "Fullstack",
         technology: [bootstrap, cpanel, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
@@ -267,6 +303,7 @@ const project: ProjectType[] = [
         description:
             "A website application created to make it easier to list daily activities digitally.",
         createdFor: "Study Project",
+        asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql, git],
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
