@@ -70,6 +70,8 @@ export default function Experience() {
                                     minutes of hand over PLN Ardan Senja Syahdu.
                                     <br />- Recon financial data and create
                                     minutes of hand over PLN EcoFest.
+                                    <br />- Recon financial data and create
+                                    minutes of hand over PLN Smada Teenage Dream.
                                     <br />- Creating user application usage
                                     instructions for PLN Marketplace.
                                     <br />- Transfer of Knowledge for UMKM &

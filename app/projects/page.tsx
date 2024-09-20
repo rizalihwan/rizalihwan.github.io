@@ -74,7 +74,7 @@ export default async function Blog() {
                                     </div>
                                 </div>
                                 <div className="mt-4 flex space-x-4 font-bold md:text-lg">
-                                    {project.url && (
+                                    {/* {project.url && (
                                         <>
                                             <Link
                                                 target="_blank"
@@ -87,7 +87,7 @@ export default async function Blog() {
                                                 </p>
                                             </Link>
                                         </>
-                                    )}
+                                    )} */}
                                     {project.source && (
                                         <>
                                             <Link

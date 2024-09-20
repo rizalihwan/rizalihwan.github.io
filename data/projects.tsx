@@ -74,13 +74,37 @@ const tw = {
     url: "https://tailwindcss.com/",
 };
 
-const vc = {
-    name: "vercel",
-    color: "bg-indigo-300 dark:bg-indigo-600",
-    url: "https://sdk.vercel.ai/",
+const flutter = {
+    name: "flutter",
+    color: "bg-sky-300 dark:bg-sky-600",
+    url: "https://flutter.dev/",
 };
 
 const project: ProjectType[] = [
+    {
+        title: "PLN Marketplace Mobile",
+        image: "/projects/plnmkp/mobile/1.png",
+        description:
+            "A PLN mobile marketplace application to facilitate online buying and selling transactions.",
+        createdFor: "Company Project",
+        asPosition: "Backend",
+        technology: [laravel, lumen, flutter, pg, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
+    {
+        title: "PLN Marketplace BOT",
+        image: "/projects/plnmkp/bot/1.png",
+        description:
+            "A website for monitoring stores, product transactions, product categories etc on the PLN mobile marketplace.",
+        createdFor: "Company Project",
+        asPosition: "Backend",
+        technology: [laravel, bootstrap, pg, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+    },
     {
         title: "PLN Insurance",
         image: "/projects/pln_insurance/1.png",
