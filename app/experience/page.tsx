@@ -30,48 +30,49 @@ export default function Experience() {
                                     <br />[ October 2022 - Present ]
                                 </h6>
                                 <p>
-                                    - Recon financial data and create minutes of
-                                    hand over PLN Marketplace.
+                                    - Recon Financial Data and Create Minutes of
+                                    Hand Over PLN Marketplace.
                                     <br />
-                                    - Recon financial data and create minutes of
-                                    hand over PLN Herald Run.
+                                    - Recon Financial Data and Create Minutes of
+                                    Hand Over PLN Herald Run.
                                     <br />
-                                    - Recon financial data and create minutes of
-                                    hand over PLN IconCash.
+                                    - Recon Financial Data and Create Minutes of
+                                    Hand Over PLN IconCash.
                                     <br />
-                                    - Recon financial data and create minutes of
-                                    hand over PLN Color Run.
+                                    - Recon Financial Data and Create Minutes of
+                                    Hand Over PLN Color Run.
                                     <br />
-                                    - Recon financial data and create minutes of
-                                    hand over PLN Proliga.
+                                    - Recon Financial Data and Create Minutes of
+                                    Hand Over PLN Proliga.
                                     <br />
-                                    - Recon financial data and create minutes of
-                                    hand over PLN Periklindo.
+                                    - Recon Financial Data and Create Minutes of
+                                    Hand Over PLN Periklindo.
                                     <br />
-                                    - Recon financial data and create minutes of
-                                    hand over PLN IconPay Biller Aggregator.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN Disbursement.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN ListriQu.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN Nidi.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN Order Bundling.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN Voltrik.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN Merchandise.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN Electric Run.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN Merchandise.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN Ardan Senja Syahdu.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN EcoFest.
-                                    <br />- Recon financial data and create
-                                    minutes of hand over PLN Smada Teenage Dream.
+                                    - Recon Financial Data and Create Minutes of
+                                    Hand Over PLN IconPay Biller Aggregator.
+                                    <br />- Recon Financial Data and Create
+                                    Minutes of Hand Over PLN Disbursement.{" "}
+                                    <br />- Recon Financial Data and Create
+                                    Minutes of Hand Over PLN ListriQu. <br />-
+                                    Recon Financial Data and Create Minutes of
+                                    Hand Over PLN Nidi. <br />- Recon Financial
+                                    Data and Create Minutes of Hand Over PLN
+                                    Order Bundling. <br />- Recon Financial Data
+                                    and Create Minutes of Hand Over PLN Voltrik.{" "}
+                                    <br />- Recon Financial Data and Create
+                                    Minutes of Hand Over PLN Merchandise. <br />
+                                    - Recon Financial Data and Create Minutes of
+                                    Hand Over PLN Electric Run. <br />- Recon
+                                    Financial Data and Create Minutes of Hand
+                                    Over PLN Merchandise. <br />- Recon
+                                    Financial Data and Create Minutes of Hand
+                                    Over PLN Ardan Senja Syahdu. <br />- Recon
+                                    Financial Data and Create Minutes of Hand
+                                    Over PLN EcoFest. <br />- Recon Financial
+                                    Data and Create Minutes of Hand Over PLN
+                                    Smada Teenage Dream. <br />- Recon Financial
+                                    Data and Create Minutes of Hand Over PLN
+                                    Gelegar Musik Perambanan.
                                     <br />- Creating user application usage
                                     instructions for PLN Marketplace.
                                     <br />- Transfer of Knowledge for UMKM &
@@ -179,10 +180,13 @@ export default function Experience() {
                                 <br />[ 2018 - 2021 ]
                             </h6>
                             <p>
-                                Learning the basics of programming. starting
-                                with the algorithm, flowchart, then programming
-                                languages like flutter, c++, c#, vb.net, ruby,
-                                java, php & javascript.
+                                Learning the basics of Programming, UI/UX,
+                                Database, GIT & Data Analysis. Starting with the
+                                Algorithm, Flowchart, then programming languages
+                                like PHP, Javascript, Vb.Net Java, C, C#,
+                                Flutter, CodeIgniter, Laravel & Lumen. Continued
+                                by learning Tools such as Github/Gitlab & Design
+                                using Figma/Adobe XD and others.
                             </p>
                         </li>
                     </ul>
