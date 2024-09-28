@@ -14,7 +14,7 @@ export default function Home() {
                 <div className="relative mb-6 hidden dark:block md:mb-0">
                     <Image
                         alt="doodle"
-                        src="default/me-dark.svg"
+                        src="/default/playcode.png"
                         priority
                         width={350}
                         height={350}
@@ -27,7 +27,7 @@ export default function Home() {
                 <div className="relative mb-6 dark:hidden md:mb-0">
                     <Image
                         alt="doodle"
-                        src="default/me-light.svg"
+                        src="/default/playcode.png"
                         priority
                         width={350}
                         height={350}
