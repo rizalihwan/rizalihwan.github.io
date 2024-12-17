@@ -12,6 +12,8 @@ type ProjectType = {
     source?: string;
     url?: string;
     font: string;
+    projectUrl: string;
+    projectButton: string;
 };
 
 const git = {
@@ -92,6 +94,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "PLN Marketplace BOT",
@@ -104,6 +109,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "PLN Insurance",
@@ -116,6 +124,24 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
+    },
+    {
+        title: "Mantoy Project Solution",
+        image: "/projects/mantoy/1.png",
+        description:
+            "A website for selling canopy, fence and other products, which includes an order form and admin page.",
+        createdFor: "Freelance Project",
+        asPosition: "Fullstack",
+        technology: [laravel, bootstrap, pg, git],
+        url: "https://github.com/rizalihwan/",
+        source: "https://github.com/rizalihwan/",
+        font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Ditkuad Accounting",
@@ -128,6 +154,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Perpustakaan",
@@ -140,6 +169,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "eKPR TWPAD",
@@ -152,6 +184,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "LMS Kemlu",
@@ -164,6 +199,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "PPDB Online",
@@ -176,6 +214,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Point of Sales",
@@ -188,6 +229,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Tropisianimal",
@@ -200,6 +244,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "SIMRS",
@@ -212,6 +259,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "BordirKuy Landing Page",
@@ -224,6 +274,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "E-Ticketing",
@@ -236,6 +289,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Wedding App",
@@ -248,6 +304,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Digital Presence",
@@ -260,6 +319,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "SIM Rayon",
@@ -272,6 +334,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Supervisor Digital",
@@ -284,6 +349,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Employee Presence",
@@ -296,6 +364,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Family Tree",
@@ -308,6 +379,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Covid Risk Test",
@@ -320,6 +394,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Digital Agenda",
@@ -332,6 +409,9 @@ const project: ProjectType[] = [
         url: "https://github.com/rizalihwan/",
         source: "https://github.com/rizalihwan/",
         font: "font-doodle",
+        projectUrl:
+            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectButton: "➤ Visit Project",
     },
 ];
 
