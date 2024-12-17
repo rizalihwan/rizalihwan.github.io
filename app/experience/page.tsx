@@ -73,6 +73,8 @@ export default function Experience() {
                                     Smada Teenage Dream. <br />- Recon Financial
                                     Data and Create Minutes of Hand Over PLN
                                     Gelegar Musik Perambanan.
+                                    <br />- Recon Financial Data and Create
+                                    Minutes of Hand Over PLN Run Palembang.
                                     <br />- Creating user application usage
                                     instructions for PLN Marketplace.
                                     <br />- Transfer of Knowledge for UMKM &
