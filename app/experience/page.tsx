@@ -185,7 +185,7 @@ export default function Experience() {
                                 Learning the basics of Programming, UI/UX,
                                 Database, GIT & Data Analysis. Starting with the
                                 Algorithm, Flowchart, then programming languages
-                                like PHP, Javascript, Vb.Net Java, C, C#,
+                                like PHP, Javascript, Vb.Net Java, C, C++, C#,
                                 Flutter, CodeIgniter, Laravel & Lumen. Continued
                                 by learning Tools such as Github/Gitlab & Design
                                 using Figma/Adobe XD and others.
