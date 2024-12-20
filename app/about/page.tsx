@@ -46,10 +46,10 @@ export default function About() {
                         <Link href="#about">About</Link>
                     </h1>
                     <p>
-                        Hello, my name is <b>Rizal Ihwan Sulaiman</b> who is
-                        currently struggling in the programming world with a
-                        strong focus on back-end development. I am very familiar
-                        with <b>Laravel</b> framework and good at operating
+                        I am <b>Rizal Ihwan Sulaiman</b> who is currently
+                        struggling in the programming world with a strong focus
+                        on back-end development. I am very familiar with{" "}
+                        <b>Laravel</b> framework and good at operating
                         databases. And recently I am diving into <b>Golang</b>.
                         I really like challenges and always learn new things,
                         and accept application projects based on client
@@ -61,11 +61,12 @@ export default function About() {
                         </i>
                     </p>
                     <p>
-                        <i>
-                            <b>&#8220;</b>The quality of a person is seen from
-                            his commitment to succeed in whatever field he
-                            pursues<b>&#8220;</b>.
-                        </i>
+                        {/* <b> */}
+                            My passion for software lies with dreaming up ideas
+                            and making them come true with elegant interfaces. I
+                            take great care in experience, architecture, and
+                            code quality of the things I build.
+                        {/* </b> */}
                     </p>
                     <p>
                         On the other hand, my love for technology and
@@ -74,7 +75,17 @@ export default function About() {
                         as <b>Laravel, Lumen</b> and <b>Golang</b>(is deepening)
                         as well as front-end technologies like{" "}
                         <b>Bootstrap, TailwindCSS</b> and <b>Next.js</b>
-                        (beginner).
+                        (beginner), Not least, I often contribute to several
+                        large open source projects such as the
+                        <Link
+                            className="relative z-10 ml-1 font-semibold underline"
+                            href="https://zuramai.github.io/mazer/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Mazer
+                        </Link>{" "}
+                        Admin Template.
                     </p>
                     <p>
                         During my time working at the current company I was
@@ -160,7 +171,7 @@ export default function About() {
                         </li>
                         <li>
                             <p className="font-bold">Database Administrator</p>
-                            <p>MySQL, PostgreSQL, Linux Server.</p>
+                            <p>MySQL, PostgreSQL.</p>
                         </li>
                         <li>
                             <p className="font-bold">
