@@ -95,20 +95,6 @@ export default async function Blog() {
                                     </p>
                                 </div>
                                 <div className="mt-4 flex space-x-4 font-bold md:text-lg">
-                                    {/* {project.url && (
-                                        <>
-                                            <Link
-                                                target="_blank"
-                                                className="inline-flex items-center hover:underline"
-                                                href={project.url}
-                                            >
-                                                <IconArrow className="md:size-5" />
-                                                <p className="pl-2">
-                                                    Detail Project
-                                                </p>
-                                            </Link>
-                                        </>
-                                    )} */}
                                     {project.source && (
                                         <>
                                             <Link

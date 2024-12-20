@@ -16,12 +16,6 @@ type ProjectType = {
     projectButton: string;
 };
 
-const git = {
-    name: "git",
-    color: "bg-slate-300 dark:bg-slate-600",
-    url: "https://github.com/",
-};
-
 const laravel = {
     name: "laravel",
     color: "bg-red-300 dark:bg-red-600",
@@ -52,12 +46,6 @@ const mysql = {
     url: "https://www.mysql.com/",
 };
 
-const cpanel = {
-    name: "cpanel",
-    color: "bg-emerald-300 dark:bg-emerald-600",
-    url: "https://cpanel.net/",
-};
-
 const vue = {
     name: "vuejs",
     color: "bg-emerald-300 dark:bg-emerald-600",
@@ -76,12 +64,6 @@ const tw = {
     url: "https://tailwindcss.com/",
 };
 
-const flutter = {
-    name: "flutter",
-    color: "bg-sky-300 dark:bg-sky-600",
-    url: "https://flutter.dev/",
-};
-
 const project: ProjectType[] = [
     {
         title: "PLN Marketplace Mobile",
@@ -90,9 +72,7 @@ const project: ProjectType[] = [
             "A PLN mobile marketplace application to facilitate online buying and selling transactions.",
         createdFor: "Company Project",
         asPosition: "Backend",
-        technology: [laravel, lumen, flutter, pg, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, lumen, pg],
         font: "font-doodle",
         projectUrl:
             "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
@@ -105,13 +85,10 @@ const project: ProjectType[] = [
             "A website for monitoring stores, product transactions, product categories etc on the PLN mobile marketplace.",
         createdFor: "Company Project",
         asPosition: "Backend",
-        technology: [laravel, bootstrap, pg, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, tw, pg],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "PLN Insurance",
@@ -120,13 +97,10 @@ const project: ProjectType[] = [
             "A webview that makes it easy for employees to register for various types of insurance provided by the company.",
         createdFor: "Company Project",
         asPosition: "Backend",
-        technology: [laravel, tw, pg, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, tw, pg],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "Mantoy Project Solution",
@@ -135,12 +109,9 @@ const project: ProjectType[] = [
             "A website for selling canopy, fence and other products, which includes an order form and admin page.",
         createdFor: "Freelance Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, pg, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, pg],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectUrl: "https://www.mantoyproject.com/",
         projectButton: "➤ Visit Project",
     },
     {
@@ -150,27 +121,21 @@ const project: ProjectType[] = [
             "A website created to facilitate accounting transactions and record reports based on modules such as profit and loss, balance sheet, general journal, etc.",
         createdFor: "Company Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, cpanel, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "Perpustakaan",
         image: "/projects/perpus/2.png",
         description:
-            "A website created to facilitate borrowing & returning books at the library. And at the same time I made this project open source to be studied by everyone and is already available on my github.",
+            "A website created to facilitate borrowing & returning books at the library. And at the same time I made this project open source to be studied by everyone and is already available on mhub.",
         createdFor: "Open Source Study Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, tw, pg, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, tw, pg],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectUrl: "https://github.com/rizalihwan/perpustakaan",
         projectButton: "➤ Visit Project",
     },
     {
@@ -180,13 +145,10 @@ const project: ProjectType[] = [
             "A website was created to make it easier for TNI AD personnel to make home installment payments.",
         createdFor: "Company Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, cpanel, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "LMS Kemlu",
@@ -195,27 +157,21 @@ const project: ProjectType[] = [
             "A website created for a learning management system for foreign ministry staff.",
         createdFor: "Company Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, pg, cpanel, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, pg],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "PPDB Online",
         image: "/projects/ppdb/1.png",
         description:
-            "A school website created to facilitate the acceptance of new students digitally. And in it there is information and content about the school.",
+            "A school website created to facilitate the acceptance of new students ally. And in it there is information and content about the school.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectUrl: "https://github.com/rizalihwan/ppdb-online",
         projectButton: "➤ Visit Project",
     },
     {
@@ -225,13 +181,10 @@ const project: ProjectType[] = [
             "A website to simplify the sales or purchasing process in retail businesses, so that customers can make payments faster.",
         createdFor: "Freelance Project",
         asPosition: "Fullstack",
-        technology: [laravel, mat, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, mat, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "Tropisianimal",
@@ -240,12 +193,9 @@ const project: ProjectType[] = [
             "A website created to further introduce animal husbandry managed by the company tropisianimal to be known by more people. And this is one of my internship projects at cyberlabs.",
         createdFor: "Internship Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mat, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, mat, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectUrl: "https://github.com/rizalihwan/tropisi-animal",
         projectButton: "➤ Visit Project",
     },
     {
@@ -255,13 +205,10 @@ const project: ProjectType[] = [
             "A website created to facilitate and manage the information system in the hospital.",
         createdFor: "Freelance Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "BordirKuy Landing Page",
@@ -270,13 +217,10 @@ const project: ProjectType[] = [
             "An embroidery shop landing page website was created to further introduce its embroidery services so that everyone can see it easily anywhere and anytime.",
         createdFor: "Freelance Project",
         asPosition: "Fullstack",
-        technology: [bootstrap, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [bootstrap],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "E-Ticketing",
@@ -285,57 +229,45 @@ const project: ProjectType[] = [
             "This e-ticketing website is made to make it easier for everyone who will travel by bus. And before leaving, you must book first..",
         createdFor: "Freelance Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "Wedding App",
         image: "/projects/wedding/1.png",
         description:
-            "A digital wedding invitation website that contains detailed information such as the wedding address and personal data of both partners.",
+            "A al wedding invitation website that contains detailed information such as the wedding address and personal data of both partners.",
         createdFor: "Freelance Project",
         asPosition: "Frontend",
-        technology: [vue, tw, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [vue, tw],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
-        title: "Digital Presence",
+        title: "al Presence",
         image: "/projects/presence/8.png",
         description:
-            "A website was created to help teachers in the digital student attendance process, and a selfie feature is registered using the camera when students are going to take attendance, and when they are absent, the date and time of the student's attendance will be automatically recorded.",
+            "A website was created to help teachers in the al student attendance process, and a selfie feature is registered using the camera when students are going to take attendance, and when they are absent, the date and time of the student's attendance will be automatically recorded.",
         createdFor: "Freelance Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "SIM Rayon",
         image: "/projects/simrayon/1.png",
         description:
-            "A website created to help improve the effectiveness and efficiency of school management teacher activities, student information and parent-teacher relationships digitally.",
+            "A website created to help improve the effectiveness and efficiency of school management teacher activities, student information and parent-teacher relationships ally.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectUrl: "https://github.com/rizalihwan/sim-rayon",
         projectButton: "➤ Visit Project",
     },
     {
@@ -345,12 +277,9 @@ const project: ProjectType[] = [
             "A website created to handle the school learning system online so that teachers can give assignments easily and effectively. And it is equipped with a feature for assessing assignments given by teachers for their supervisor roles & a report feature to be viewed by the principal, and many more features.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectUrl: "https://github.com/rizalihwan/supervisor-digital",
         projectButton: "➤ Visit Project",
     },
     {
@@ -360,13 +289,10 @@ const project: ProjectType[] = [
             "A website created to handle the school learning system online so that teachers can give assignments easily and effectively. And it is equipped with a feature for assessing assignments given by teachers for their supervisor roles & a report feature to be viewed by the principal, and many more features.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "Family Tree",
@@ -375,12 +301,9 @@ const project: ProjectType[] = [
             "A website created to determine genealogy in a family, and I created this project to practice if conditional logic and correct my relational database.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectUrl: "https://github.com/rizalihwan/silsilah",
         projectButton: "➤ Visit Project",
     },
     {
@@ -390,27 +313,21 @@ const project: ProjectType[] = [
             "A website created to find out how far you are affected by the risk of the corona virus.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
-        technology: [bootstrap, cpanel, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [bootstrap],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectUrl: "https://github.com/rizalihwan/covid-risk-test",
         projectButton: "➤ Visit Project",
     },
     {
-        title: "Digital Agenda",
+        title: "Agenda Digital",
         image: "/projects/agenda/1.png",
         description:
-            "A website application created to make it easier to list daily activities digitally.",
+            "A website application created to make it easier to list daily activities ally.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
-        technology: [laravel, bootstrap, mysql, git],
-        url: "https://github.com/rizalihwan/",
-        source: "https://github.com/rizalihwan/",
+        technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl:
-            "https://play.google.com/store/apps/details?id=com.icon.plnmarketplace&hl=id&pli=1",
+        projectUrl: "https://github.com/rizalihwan/agenda-digital",
         projectButton: "➤ Visit Project",
     },
 ];
