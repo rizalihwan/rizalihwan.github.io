@@ -25,56 +25,24 @@ export default function Experience() {
                                 <h6 className="font-bold">
                                     PLN ICON PLUS
                                     <br />
-                                    Technical Support & Engineer Data
-                                    Reconciliation PLN Mobile
+                                    Database Administrator, Data Reconciliation
+                                    Engineer & Technical Support
                                     <br />[ October 2022 - Present ]
                                 </h6>
                                 <p>
-                                    - Recon Financial Data and Create Minutes of
-                                    Hand Over PLN Marketplace.
-                                    <br />
-                                    - Recon Financial Data and Create Minutes of
-                                    Hand Over PLN Herald Run.
-                                    <br />
-                                    - Recon Financial Data and Create Minutes of
-                                    Hand Over PLN IconCash.
-                                    <br />
-                                    - Recon Financial Data and Create Minutes of
-                                    Hand Over PLN Color Run.
-                                    <br />
-                                    - Recon Financial Data and Create Minutes of
-                                    Hand Over PLN Proliga.
-                                    <br />
-                                    - Recon Financial Data and Create Minutes of
-                                    Hand Over PLN Periklindo.
-                                    <br />
-                                    - Recon Financial Data and Create Minutes of
-                                    Hand Over PLN IconPay Biller Aggregator.
-                                    <br />- Recon Financial Data and Create
-                                    Minutes of Hand Over PLN Disbursement.{" "}
-                                    <br />- Recon Financial Data and Create
-                                    Minutes of Hand Over PLN ListriQu. <br />-
-                                    Recon Financial Data and Create Minutes of
-                                    Hand Over PLN Nidi. <br />- Recon Financial
-                                    Data and Create Minutes of Hand Over PLN
-                                    Order Bundling. <br />- Recon Financial Data
-                                    and Create Minutes of Hand Over PLN Voltrik.{" "}
-                                    <br />- Recon Financial Data and Create
-                                    Minutes of Hand Over PLN Merchandise. <br />
-                                    - Recon Financial Data and Create Minutes of
-                                    Hand Over PLN Electric Run. <br />- Recon
-                                    Financial Data and Create Minutes of Hand
-                                    Over PLN Merchandise. <br />- Recon
-                                    Financial Data and Create Minutes of Hand
-                                    Over PLN Ardan Senja Syahdu. <br />- Recon
-                                    Financial Data and Create Minutes of Hand
-                                    Over PLN EcoFest. <br />- Recon Financial
-                                    Data and Create Minutes of Hand Over PLN
-                                    Smada Teenage Dream. <br />- Recon Financial
-                                    Data and Create Minutes of Hand Over PLN
-                                    Gelegar Musik Perambanan.
-                                    <br />- Recon Financial Data and Create
-                                    Minutes of Hand Over PLN Run Palembang.
+                                    - Supporting data reconciliation and
+                                    validation processes to maintain data
+                                    integrity.
+                                    <br />- Working with SQL and database
+                                    systems to ensure high-quality data output.
+                                    <br />- Identify and resolve discrepancies
+                                    in data flows while maintaining accuracy and
+                                    compliance.
+                                    <br />- Also involved for several months in
+                                    the development of a new PLN Network
+                                    Integrator product (Data Gateway) as an
+                                    Implementor assisting the UAT and SIT
+                                    processes.
                                     <br />- Creating user application usage
                                     instructions for PLN Marketplace.
                                     <br />- Transfer of Knowledge for UMKM &
