@@ -69,7 +69,7 @@ const project: ProjectType[] = [
         title: "PLN Marketplace Mobile",
         image: "/projects/plnmkp/mobile/1.png",
         description:
-            "A PLN mobile marketplace application to facilitate online buying and selling transactions.",
+            "PLN Marketplace is a buying and selling platform to make things easier for PLN customers and the public. Collaborating with various UMKM and other companies.",
         createdFor: "Company Project",
         asPosition: "Backend",
         technology: [laravel, lumen, pg],
@@ -118,7 +118,7 @@ const project: ProjectType[] = [
         title: "Ditkuad Accounting",
         image: "/projects/akunting/1.png",
         description:
-            "A website created to facilitate accounting transactions and record reports based on modules such as profit and loss, balance sheet, general journal, etc.",
+            "A website created to facilitate transactions regarding accounting and record reports based on modules such as Profit and Loss, Balance Sheet, General Journal, etc.",
         createdFor: "Company Project",
         asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql],
@@ -130,7 +130,7 @@ const project: ProjectType[] = [
         title: "Perpustakaan",
         image: "/projects/perpus/2.png",
         description:
-            "A website created to facilitate borrowing & returning books at the library. And at the same time I made this project open source to be studied by everyone and is already available on mhub.",
+            "A website created to facilitate borrowing & returning books at the library.",
         createdFor: "Open Source Study Project",
         asPosition: "Fullstack",
         technology: [laravel, tw, pg],
@@ -163,10 +163,22 @@ const project: ProjectType[] = [
         projectButton: "",
     },
     {
+        title: "SIM Hotel",
+        image: "/projects/simhotel/2.jpeg",
+        description:
+            "A website created to make it easier to book hotel rooms efficiently.",
+        createdFor: "Open Source Study Project",
+        asPosition: "Fullstack",
+        technology: [laravel, bootstrap, mysql],
+        font: "font-doodle",
+        projectUrl: "https://github.com/rizalihwan/sim-hotel",
+        projectButton: "➤ Visit Project",
+    },
+    {
         title: "PPDB Online",
         image: "/projects/ppdb/1.png",
         description:
-            "A school website created to facilitate the acceptance of new students ally. And in it there is information and content about the school.",
+            "A school website created to facilitate the acceptance of new students.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql],
@@ -226,7 +238,7 @@ const project: ProjectType[] = [
         title: "E-Ticketing",
         image: "/projects/ticketing/2.png",
         description:
-            "This e-ticketing website is made to make it easier for everyone who will travel by bus. And before leaving, you must book first..",
+            "This e-ticketing website is made to make it easier for everyone who will travel by bus. And before leaving, you must book first.",
         createdFor: "Freelance Project",
         asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql],
@@ -238,7 +250,7 @@ const project: ProjectType[] = [
         title: "Wedding App",
         image: "/projects/wedding/1.png",
         description:
-            "A al wedding invitation website that contains detailed information such as the wedding address and personal data of both partners.",
+            "A digital wedding invitation website that contains detailed information such as the wedding address and personal data of both partners.",
         createdFor: "Freelance Project",
         asPosition: "Frontend",
         technology: [vue, tw],
@@ -247,10 +259,10 @@ const project: ProjectType[] = [
         projectButton: "",
     },
     {
-        title: "al Presence",
+        title: "Digital Presence",
         image: "/projects/presence/8.png",
         description:
-            "A website was created to help teachers in the al student attendance process, and a selfie feature is registered using the camera when students are going to take attendance, and when they are absent, the date and time of the student's attendance will be automatically recorded.",
+            "A website was created to help teachers in the digital student attendance process, and a selfie feature is registered using the camera when students are going to take attendance, and when they are absent, the date and time of the student's attendance will be automatically recorded.",
         createdFor: "Freelance Project",
         asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql],
