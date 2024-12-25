@@ -274,7 +274,7 @@ const project: ProjectType[] = [
         title: "SIM Rayon",
         image: "/projects/simrayon/1.png",
         description:
-            "A website created to help improve the effectiveness and efficiency of school management teacher activities, student information and parent-teacher relationships ally.",
+            "A website created to help improve the effectiveness and efficiency of school management teacher activities, student information and parent-teacher relationships.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql],
@@ -303,8 +303,8 @@ const project: ProjectType[] = [
         asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql],
         font: "font-doodle",
-        projectUrl: "",
-        projectButton: "",
+        projectUrl: "https://github.com/rizalihwan/absensi-karyawan",
+        projectButton: "➤ Visit Project",
     },
     {
         title: "Family Tree",
@@ -334,7 +334,7 @@ const project: ProjectType[] = [
         title: "Agenda Digital",
         image: "/projects/agenda/1.png",
         description:
-            "A website application created to make it easier to list daily activities ally.",
+            "A website application created to make it easier to list daily activities.",
         createdFor: "Study Project",
         asPosition: "Fullstack",
         technology: [laravel, bootstrap, mysql],
