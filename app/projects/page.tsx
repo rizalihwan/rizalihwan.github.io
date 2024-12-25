@@ -28,11 +28,12 @@ export default async function Blog() {
                         >
                             <Image
                                 className="rounded"
-                                width="489"
-                                height="256"
+                                width="600"
+                                height="300"
                                 src={project.image}
                                 alt={project.title}
                                 placeholder="blur"
+                                style={{ objectFit: "cover", objectPosition: "left" }}
                                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNMqwcAAVEA58giG6IAAAAASUVORK5CYII="
                             />
                             <div className="flex max-w-md flex-col justify-between p-4 md:p-6">
@@ -50,7 +51,7 @@ export default async function Blog() {
                                             project.asPosition +
                                             " ]"}
                                     </p>
-                                    <p className="line-clamp-2 text-sm md:text-base">
+                                    <p className="text-sm md:text-base">
                                         {project.description}
                                     </p>
                                     <div className="flex space-x-2 pt-3">
