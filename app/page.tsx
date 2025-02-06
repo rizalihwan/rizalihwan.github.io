@@ -14,11 +14,11 @@ export default function Home() {
                 <div className="relative mb-6 hidden dark:block md:mb-0">
                     <Image
                         alt="doodle"
-                        src="/default/playcode.png"
+                        src="/default/profile.webp"
                         priority
                         width={350}
                         height={350}
-                        className="md:w-[400px]"
+                        className="rounded-full md:w-[400px] p-2"
                     />
                     <div className="absolute inset-x-0 bottom-0 stroke-[#ffd55a]/60">
                         <Doodle1 />
@@ -27,11 +27,11 @@ export default function Home() {
                 <div className="relative mb-6 dark:hidden md:mb-0">
                     <Image
                         alt="doodle"
-                        src="/default/playcode.png"
+                        src="/default/profile.webp"
                         priority
                         width={350}
                         height={350}
-                        className="md:w-[400px]"
+                        className="rounded-full md:w-[400px] p-2"
                     />
                     <div className="absolute inset-x-0 bottom-0 stroke-[#9b9b9b]/60">
                         <Doodle1 />
