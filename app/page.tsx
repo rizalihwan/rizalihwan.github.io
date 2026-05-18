@@ -7,78 +7,87 @@ export default function Home() {
     return (
         <section
             id="main-content"
-            className="relative flex h-full cursor-pencil items-center justify-center pb-6 dark:cursor-pencil-dark md:w-screen md:pb-0 md:pr-2.5"
+            className="relative flex min-h-[80vh] items-center justify-center px-6 pb-10 md:px-10 md:pb-0"
         >
             <Canvas />
-            <div className="flex flex-col justify-center md:flex-row md:justify-between">
-                <div className="relative mb-6 hidden dark:block md:mb-0">
-                    <Image
-                        alt="doodle"
-                        src="/default/profile.webp"
-                        priority
-                        width={350}
-                        height={350}
-                        className="rounded-full md:w-[400px] p-2"
-                    />
-                    <div className="absolute inset-x-0 bottom-0 stroke-[#ffd55a]/60">
-                        <Doodle1 />
+
+            <div className="relative z-10 flex max-w-5xl flex-col items-center justify-center gap-10 md:flex-row md:items-center md:justify-between">
+                {/* PROFILE IMAGE */}
+                <div className="relative">
+                    <div className="hidden dark:block">
+                        <Image
+                            alt="Rizal Ihwan"
+                            src="/default/profile.webp"
+                            priority
+                            width={320}
+                            height={320}
+                            className="rounded-full object-cover p-2 shadow-2xl transition duration-300 hover:scale-[1.02] md:size-[320px]"
+                        />
+
+                        <div className="absolute inset-x-0 bottom-0 stroke-[#ffd55a]/60">
+                            <Doodle1 />
+                        </div>
+                    </div>
+
+                    <div className="dark:hidden">
+                        <Image
+                            alt="Rizal Ihwan"
+                            src="/default/profile.webp"
+                            priority
+                            width={320}
+                            height={320}
+                            className="rounded-full object-cover p-2 shadow-2xl transition duration-300 hover:scale-[1.02] md:size-[320px]"
+                        />
+
+                        <div className="absolute inset-x-0 bottom-0 stroke-[#9b9b9b]/60">
+                            <Doodle1 />
+                        </div>
                     </div>
                 </div>
-                <div className="relative mb-6 dark:hidden md:mb-0">
-                    <Image
-                        alt="doodle"
-                        src="/default/profile.webp"
-                        priority
-                        width={350}
-                        height={350}
-                        className="rounded-full md:w-[400px] p-2"
-                    />
-                    <div className="absolute inset-x-0 bottom-0 stroke-[#9b9b9b]/60">
-                        <Doodle1 />
-                    </div>
-                </div>
-                <div className="flex flex-col items-center justify-center space-y-4 md:ml-4 md:items-start">
-                    <h1 className="mt-1 font-doodle text-3xl md:text-4xl">
+
+                {/* CONTENT */}
+                <div className="flex max-w-xl flex-col items-center space-y-5 text-center md:items-start md:text-left">
+                    <h1 className="font-doodle text-3xl leading-tight text-zinc-900 dark:text-white md:text-5xl">
                         Bonjour!
                         <br />
                         It&apos;s me,
                         <span className="relative">
                             {" "}
-                            rizal.{" "}
-                            <div className="absolute -left-2.5 top-4 hidden w-[6.5rem] stroke-[#ffd55a]/60 dark:block md:top-5 md:w-[7.5rem]">
+                            rizal.
+                            <div className="absolute -left-2 top-5 hidden w-[6.5rem] stroke-[#ffd55a]/60 dark:block md:top-7 md:w-[8rem]">
                                 <Doodle2 />
                             </div>
-                            <div className="absolute -left-2.5 top-4 w-[6.5rem] stroke-[#9b9b9b]/60 dark:hidden md:top-5 md:w-[7.5rem]">
+                            <div className="absolute -left-2 top-5 w-[6.5rem] stroke-[#9b9b9b]/60 dark:hidden md:top-7 md:w-[8rem]">
                                 <Doodle2 />
                             </div>
-                        </span>
-                        &#128526;
+                        </span>{" "}
+                        😎
                     </h1>
-                    <p className="text-md max-w-[500px] text-center md:text-left md:text-lg">
-                        A self-taught programmer based in
-                        <Link
-                            className="relative z-10 ml-1 font-semibold underline"
-                            href="https://en.wikipedia.org/wiki/Bogor"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Bogor West Java
-                        </Link>
-                        . Love to explore anything about programming and data
-                        analytics.
+
+                    <p className="text-base leading-8 text-gray-700 dark:text-gray-300 md:text-lg">
+                        A DevOps & Backend Engineer focused on building scalable
+                        infrastructure, automation pipelines, and reliable
+                        production systems.
                     </p>
-                    <p className="text-md max-w-[500px] text-center md:text-left md:text-lg">
-                        {"Checkout my "}
+
+                    <p className="text-base leading-8 text-gray-700 dark:text-gray-300 md:text-lg">
+                        Passionate about Kubernetes, cloud-native technologies,
+                        observability, system reliability, and modern software
+                        engineering.
+                    </p>
+
+                    <p className="text-base leading-8 text-gray-700 dark:text-gray-300 md:text-lg">
+                        Checkout my{" "}
                         <Link
-                            className="relative z-10 font-semibold underline"
+                            className="relative z-20 font-semibold underline underline-offset-4 transition hover:opacity-80"
                             href="/projects"
                         >
                             past works
                         </Link>
-                        {", or learn more "}
+                        , or learn more{" "}
                         <Link
                             href="/about"
-                            className="relative z-10 font-semibold underline"
+                            className="relative z-20 font-semibold underline underline-offset-4 transition hover:opacity-80"
                         >
                             about me
                         </Link>

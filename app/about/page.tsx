@@ -16,7 +16,7 @@ const socials = [
         url: "https://www.linkedin.com/in/rizal-ihwan-sulaiman/",
     },
     {
-        name: "Github",
+        name: "GitHub",
         url: "https://github.com/rizalihwan",
     },
     {
@@ -40,45 +40,42 @@ export default function About() {
             <div className="mx-auto mt-2 size-80 md:size-96">
                 <Blob />
             </div>
+
             <div className="prose max-w-full dark:prose-dark">
+                {/* ABOUT */}
                 <section>
                     <h1 id="about" className="my-4">
                         <Link href="#about">About</Link>
                     </h1>
-                    <p>
-                        I am <b>Rizal Ihwan Sulaiman</b> who is currently
-                        struggling in the programming world with a strong focus
-                        on back-end development. I am very familiar with{" "}
-                        <b>Laravel</b> framework and good at operating
-                        databases. And recently I am diving into <b>Golang</b>.
-                        I really like challenges and always learn new things,
-                        and accept application projects based on client
-                        requests. Apart from that, I am currently working at a
-                        state-owned company as a{" "}
-                        <i className="font-bold">
-                            Database Administrator, Data Reconciliation Engineer
-                            & Technical Support.
-                        </i>
+
+                    <p className="leading-7">
+                        I am <b>Rizal Ihwan Sulaiman</b>, a Back-end Developer
+                        and DevOps Engineer focused on building reliable,
+                        scalable, and efficient applications. I specialize in
+                        the <b>Laravel</b> ecosystem and have solid experience
+                        in database management, system deployment,
+                        infrastructure operations, and software architecture.
                     </p>
-                    <p>
-                        {/* <b> */}
-                            My passion for software lies with dreaming up ideas
-                            and making them come true with elegant interfaces. I
-                            take great care in experience, architecture, and
-                            code quality of the things I build.
-                        {/* </b> */}
+
+                    <p className="leading-7">
+                        I am passionate about solving technical challenges,
+                        improving system performance, and delivering
+                        high-quality solutions based on business and client
+                        requirements.
                     </p>
-                    <p>
-                        On the other hand, my love for technology and
-                        programming led me to delve into the world of full-stack
-                        development. I am skilled in back-end technologies such
-                        as <b>Laravel, Lumen</b> and <b>Golang</b>(is deepening)
-                        as well as front-end technologies like{" "}
-                        <b>Bootstrap, TailwindCSS</b> and <b>Next.js</b>
-                        (beginner), Not least, I often contribute to several
-                        large open source projects such as the
+
+                    <p className="leading-7">
+                        In addition to back-end development, I also have
+                        experience with modern front-end technologies such as{" "}
+                        <b>Bootstrap</b>, <b>Tailwind CSS</b>, and{" "}
+                        <b>Next.js</b>.
+                    </p>
+
+                    <p className="leading-7">
+                        I have also contributed to several open-source projects,
+                        including the{" "}
                         <Link
-                            className="relative z-10 ml-1 font-semibold underline"
+                            className="font-semibold underline"
                             href="https://zuramai.github.io/mazer/"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -87,121 +84,190 @@ export default function About() {
                         </Link>{" "}
                         Admin Template.
                     </p>
-                    <p>
-                        During my time working at the current company I was
-                        entrusted to hold more advanced positions, initially a
-                        back-end developer now a Database Administrator, Data
-                        Reconciliation Engineer & Technical Support.
+
+                    <p className="leading-7">
+                        Throughout my professional career, I have been entrusted
+                        with multiple technical roles including Back-end
+                        Developer, Database Administrator, Data Reconciliation
+                        Engineer, Technical Support, and DevOps Engineer, which
+                        strengthened my expertise in software development,
+                        infrastructure management, and system operations.
                     </p>
-                    <p>
-                        Outside of work thingy, I love playing games and work
-                        out.
+
+                    <p className="leading-7">
+                        Currently, I work at a state-owned company as a{" "}
+                        <span className="font-bold">
+                            DevOps | DevSecOps Engineer.
+                        </span>
+                    </p>
+
+                    <p className="leading-7">
+                        Outside of work, I enjoy gaming, working out, and
+                        exploring new technologies.
                     </p>
                 </section>
-                <section>
+
+                {/* SERVICES */}
+                <section className="mt-10">
                     <h1 id="services" className="my-4">
                         <Link href="#services">Services</Link>
                     </h1>
-                    <p>Some of the services that I can create are as below:</p>
-                    <ul>
+
+                    <p>
+                        Some of the services that I can provide are listed
+                        below:
+                    </p>
+
+                    <ul className="mt-4">
                         <li>
-                            <p className="font-bold">Back End Development</p>
-                            <p>
-                                Creating RestfullAPI using Laravel or Lumen
-                                framework. And recently I am diving into Golang.
+                            <p className="font-bold">Back-end Development</p>
+
+                            <p className="leading-7">
+                                Build scalable and secure RESTful APIs using
+                                Laravel, Lumen, and Golang-based services.
                             </p>
                         </li>
+
                         <li>
                             <p className="font-bold">Web Development</p>
-                            <p>
-                                Serving website development from scratch that is
-                                Dynamic or Static, from front view to back-end &
+
+                            <p className="leading-7">
+                                Develop dynamic and static websites from
+                                frontend implementation to backend services and
                                 database integration.
                             </p>
                         </li>
+
+                        <li>
+                            <p className="font-bold">DevOps & Infrastructure</p>
+
+                            <p className="leading-7">
+                                Manage Kubernetes infrastructure, CI/CD
+                                pipelines, container orchestration,
+                                observability systems, and deployment automation
+                                for scalable applications.
+                            </p>
+                        </li>
+
                         <li>
                             <p className="font-bold">
                                 Data Reconciliation Engineer
                             </p>
-                            <p>
-                                Compare financial data and create minutes of
-                                hand over using Microsoft tools such as
-                                Microsoft Excel Vlookup, Word and others. Create
-                                SQL queries independently to extract the data
-                                needed for reconciliation.
+
+                            <p className="leading-7">
+                                Perform financial data reconciliation,
+                                validation, reporting, and SQL-based data
+                                extraction to ensure data consistency and
+                                integrity.
                             </p>
                         </li>
+
                         <li>
                             <p className="font-bold">Database Administrator</p>
-                            <p>
-                                Create SQL queries to identify suspect data,
-                                provide custom column data for company needs,
-                                create queries to view summary, transaction,
-                                average, sum, count & others.
+
+                            <p className="leading-7">
+                                Create SQL queries for reporting,
+                                troubleshooting, data analysis, and custom
+                                business requirements using MySQL and PostgreSQL
+                                databases.
                             </p>
                         </li>
+
                         <li>
                             <p className="font-bold">Technical Support</p>
-                            <p>
-                                Fix existing problems in applications such as
-                                payment failures, server problems, data
-                                corruption and others to be repaired. Create SQL
-                                queries and perform CRUD actions to fix data
-                                problems in existing applications. Install &
-                                configure software and hardware, Provide
-                                customer assistance, Responding user inquiries,
-                                Run diagnostic problem to resolve problem, etc.
+
+                            <p className="leading-7">
+                                Troubleshoot application, server, and database
+                                issues including payment failures, data
+                                inconsistencies, and infrastructure-related
+                                problems while providing operational support and
+                                maintenance.
                             </p>
                         </li>
                     </ul>
                 </section>
-                <section>
+
+                {/* SKILLS */}
+                <section className="mt-10">
                     <h1 id="skills" className="my-4">
                         <Link href="#skills">Skills</Link>
                     </h1>
-                    <p>Some of the tech stacks that I master:</p>
-                    <ul>
+
+                    <p>Some of the technologies and tools that I use:</p>
+
+                    <ul className="mt-4">
                         <li>
-                            <p className="font-bold">Back End Development</p>
-                            <p>Golang(is deepening), Laravel, Lumen.</p>
+                            <p className="font-bold">Back-end Development</p>
+
+                            <p>Golang, Laravel, Lumen, PHP.</p>
                         </li>
+
                         <li>
-                            <p className="font-bold">Front End Development</p>
-                            <p>Next JS(beginner), Tailwind CSS, Bootstrap.</p>
+                            <p className="font-bold">Front-end Development</p>
+
+                            <p>Next.js, Tailwind CSS, Bootstrap.</p>
                         </li>
+
                         <li>
-                            <p className="font-bold">Database Administrator</p>
-                            <p>MySQL, PostgreSQL.</p>
+                            <p className="font-bold">DevOps & Infrastructure</p>
+
+                            <p>
+                                Kubernetes, Docker, Argo CD, GitLab CI/CD,
+                                Istio, MetalLB, BIG-IP F5, Ansible, Semaphore,
+                                Vault, JumpServer.
+                            </p>
                         </li>
+
                         <li>
                             <p className="font-bold">
-                                Data Reconciliation Engineer
+                                Monitoring & Observability
                             </p>
-                            <p>Excel Vlookup, Word & etc.</p>
-                        </li>
-                        <li>
-                            <p className="font-bold">Other Tools</p>
+
                             <p>
-                                Git & Github, SQL, Mobaxterm, Microsoft Tools &
-                                etc.
+                                Grafana, Prometheus, Loki, Tempo, Mimir,
+                                DataDog.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p className="font-bold">Database Management</p>
+
+                            <p>MySQL, PostgreSQL, Redis, MongoDB.</p>
+                        </li>
+
+                        <li>
+                            <p className="font-bold">
+                                Operating Systems & Tools
+                            </p>
+
+                            <p>
+                                Ubuntu, CentOS, Git, GitHub, GitLab, SQL,
+                                MobaXterm, Microsoft Office Tools.
                             </p>
                         </li>
                     </ul>
                 </section>
-                <section>
+
+                {/* CONTACT */}
+                <section className="mt-10">
                     <h1 id="contact" className="my-4">
                         <Link href="#contact">Contact</Link>
                     </h1>
-                    <p>
-                        I&apos;m always excited to connect with everyone so
-                        please don&apos;t hesitate to reach out by following my
-                        social media below:
+
+                    <p className="leading-7">
+                        I&apos;m always open to discussing technology,
+                        collaboration opportunities, or professional networking.
+                        Feel free to reach out through the platforms below:
                     </p>
-                    <ul>
+
+                    <ul className="mt-4">
                         {socials.map((data, idx) => (
                             <li key={idx}>
                                 <p className="my-2 truncate">
-                                    {data.name} -{" "}
+                                    <span className="font-semibold">
+                                        {data.name}
+                                    </span>{" "}
+                                    -{" "}
                                     <Link
                                         target="_blank"
                                         className="underline"
@@ -213,17 +279,18 @@ export default function About() {
                             </li>
                         ))}
                     </ul>
-                    <p>
-                        If you want to see a lot of the work I&apos;ve made, you
-                        can visit{" "}
+
+                    <p className="leading-7">
+                        If you would like to explore more of my work and
+                        projects, feel free to visit my{" "}
                         <Link
                             target="_blank"
-                            className="underline"
+                            className="font-semibold underline"
                             href="https://github.com/rizalihwan"
                         >
-                            my github
+                            GitHub
                         </Link>
-                        . Cheers🍻
+                        . Cheers 🍻
                     </p>
                 </section>
             </div>
