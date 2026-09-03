@@ -103,6 +103,18 @@ const project: ProjectType[] = [
         projectButton: "",
     },
     {
+        title: "WyvernPath Sistem Pakar",
+        image: "/projects/wyvernpath/1.png",
+        description:
+            "An expert system developed to help students determine suitable major recommendations based on their RIASEC profile using a rule-based inference method, equipped with question, major, rule, and assessment level management, consultation features, and printable recommendation results in a formal document format.",
+        createdFor: "Freelance Project",
+        asPosition: "Fullstack",
+        technology: [laravel, tw, pg],
+        font: "font-doodle",
+        projectUrl: "https://www.wyvernpath.com/",
+        projectButton: "➤ Visit Project",
+    },
+    {
         title: "Mantoy Project Solution",
         image: "/projects/mantoy/1.png",
         description:
