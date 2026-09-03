@@ -111,8 +111,8 @@ const project: ProjectType[] = [
         asPosition: "Fullstack",
         technology: [laravel, tw, pg],
         font: "font-doodle",
-        projectUrl: "https://www.wyvernpath.com/",
-        projectButton: "➤ Visit Project",
+        projectUrl: "",
+        projectButton: "",
     },
     {
         title: "Mantoy Project Solution",
