@@ -2,7 +2,6 @@ import {
     Mansalva,
     Nunito,
     Gloria_Hallelujah,
-    Della_Respira,
 } from "next/font/google";
 
 export const doodle = Mansalva({
@@ -21,13 +20,6 @@ export const sans = Nunito({
 export const footer = Gloria_Hallelujah({
     subsets: ["latin"],
     variable: "--font-footer",
-    weight: "400",
-    display: "swap",
-});
-
-export const della = Della_Respira({
-    subsets: ["latin"],
-    variable: "--font-della",
     weight: "400",
     display: "swap",
 });

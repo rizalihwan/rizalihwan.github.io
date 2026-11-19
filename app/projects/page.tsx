@@ -51,6 +51,7 @@ export default async function Projects() {
                                         className="h-[220px] w-full object-cover object-top transition duration-300 hover:scale-105 md:h-full"
                                         width={1200}
                                         height={700}
+                                        sizes="(min-width: 1024px) 471px, (min-width: 768px) 46vw, 85vw"
                                         src={project.image}
                                         alt={project.title}
                                         placeholder="blur"

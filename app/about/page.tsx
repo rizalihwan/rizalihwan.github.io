@@ -270,6 +270,7 @@ export default function About() {
                                     -{" "}
                                     <Link
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                         className="underline"
                                         href={data.url}
                                     >
@@ -285,6 +286,7 @@ export default function About() {
                         projects, feel free to visit my{" "}
                         <Link
                             target="_blank"
+                            rel="noopener noreferrer"
                             className="font-semibold underline"
                             href="https://github.com/rizalihwan"
                         >

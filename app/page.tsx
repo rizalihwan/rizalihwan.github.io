@@ -14,34 +14,21 @@ export default function Home() {
             <div className="relative z-10 flex max-w-5xl flex-col items-center justify-center gap-10 md:flex-row md:items-center md:justify-between">
                 {/* PROFILE IMAGE */}
                 <div className="relative">
-                    <div className="hidden dark:block">
-                        <Image
-                            alt="Rizal Ihwan"
-                            src="/default/profile.webp"
-                            priority
-                            width={320}
-                            height={320}
-                            className="rounded-full object-cover p-2 shadow-2xl transition duration-300 hover:scale-[1.02] md:size-[320px]"
-                        />
+                    <Image
+                        alt="Rizal Ihwan"
+                        src="/default/profile.webp"
+                        loading="lazy"
+                        sizes="320px"
+                        width={320}
+                        height={320}
+                        className="rounded-full object-cover p-2 shadow-2xl transition duration-300 hover:scale-[1.02] md:size-[320px]"
+                    />
 
-                        <div className="absolute inset-x-0 bottom-0 stroke-[#ffd55a]/60">
-                            <Doodle1 />
-                        </div>
+                    <div className="absolute inset-x-0 bottom-0 stroke-[#9b9b9b]/60 dark:hidden">
+                        <Doodle1 />
                     </div>
-
-                    <div className="dark:hidden">
-                        <Image
-                            alt="Rizal Ihwan"
-                            src="/default/profile.webp"
-                            priority
-                            width={320}
-                            height={320}
-                            className="rounded-full object-cover p-2 shadow-2xl transition duration-300 hover:scale-[1.02] md:size-[320px]"
-                        />
-
-                        <div className="absolute inset-x-0 bottom-0 stroke-[#9b9b9b]/60">
-                            <Doodle1 />
-                        </div>
+                    <div className="absolute inset-x-0 bottom-0 hidden stroke-[#ffd55a]/60 dark:block">
+                        <Doodle1 />
                     </div>
                 </div>
 

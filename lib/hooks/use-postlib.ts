@@ -7,7 +7,7 @@ import codeTitle from "remark-code-title";
 import remarkMath from "remark-math";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import rehypePrism from "@mapbox/rehype-prism";
+import rehypePrism from "rehype-prism-plus";
 import rehypeKatex from "rehype-katex";
 import { Pre, Gist, Img, Quote, Hr } from "@/components/mdx-components";
 const root = process.cwd();

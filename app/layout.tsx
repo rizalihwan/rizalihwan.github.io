@@ -2,7 +2,7 @@ import "@/styles/global.css";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { doodle, sans, footer, della } from "@/styles/fonts";
+import { doodle, sans, footer } from "@/styles/fonts";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 import Providers from "@/components/providers";
@@ -27,15 +27,19 @@ export default function RootLayout({
     return (
         <html
             lang="en"
-            className={`${doodle.variable} ${sans.variable} ${footer.variable} ${della.variable}`}
+            className={`${doodle.variable} ${sans.variable} ${footer.variable}`}
             suppressHydrationWarning
         >
             <body className="flex h-dvh select-none flex-col">
                 <Providers>
                     <Navbar />
-                    <SpeedInsights />
+                    {process.env.VERCEL === "1" && (
+                        <>
+                            <SpeedInsights />
+                            <Analytics />
+                        </>
+                    )}
                     {children}
-                    <Analytics />
                     <Footer />
                 </Providers>
             </body>

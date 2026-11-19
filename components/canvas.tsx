@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Terminal, X } from "lucide-react";
 
 const commandOutputs: Record<string, string> = {
@@ -50,16 +50,6 @@ export default function Canvas() {
     ]);
 
     const [input, setInput] = useState("");
-
-    const inputRef = useRef<HTMLInputElement>(null);
-
-    useEffect(() => {
-        if (open) {
-            setTimeout(() => {
-                inputRef.current?.focus();
-            }, 100);
-        }
-    }, [open]);
 
     const handleCommand = (cmd: string) => {
         const command = cmd.trim();
@@ -124,7 +114,6 @@ export default function Canvas() {
                                 <span className="text-green-500">$</span>
 
                                 <input
-                                    ref={inputRef}
                                     value={input}
                                     onChange={(e) => setInput(e.target.value)}
                                     onKeyDown={(e) => {
