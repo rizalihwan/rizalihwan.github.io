@@ -17,7 +17,6 @@ export default function Experience() {
 
                     <div className="pb-8">
                         <h5 className="font-bold underline">WORK</h5>
-
                         <ul>
                             <li>
                                 <article>
@@ -33,12 +32,14 @@ export default function Experience() {
                                     <p className="mt-2 leading-7">
                                         <b>
                                             Stacks: Kubernetes, Docker, Argo CD,
-                                            BIG-IP F5, DataDog, MetalLB, Istio,
-                                            Grafana, Prometheus, GitLab CI/CD,
-                                            Ansible, Semaphore, JumpServer,
-                                            Loki, Mimir, Redis, MongoDB, Ubuntu,
-                                            CentOS, Golang, PHP, Flutter, Java,
-                                            Tempo, KESL, EDR Fidelis.
+                                            BIG-IP F5, HAProxy, DataDog,
+                                            MetalLB, Istio, Grafana, Prometheus,
+                                            GitLab CI/CD, Ansible, Semaphore,
+                                            JumpServer, Loki, Mimir,
+                                            VictoriaLogs, Redis, MongoDB,
+                                            Ubuntu, CentOS, Golang, PHP,
+                                            Flutter, Java, Tempo, KESL, EDR
+                                            Fidelis.
                                         </b>
                                     </p>
 

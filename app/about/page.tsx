@@ -199,7 +199,7 @@ export default function About() {
                         <li>
                             <p className="font-bold">Back-end Development</p>
 
-                            <p>Golang, Laravel, Lumen, PHP.</p>
+                            <p>Golang, PHP, Laravel, Lumen.</p>
                         </li>
 
                         <li>
@@ -213,8 +213,8 @@ export default function About() {
 
                             <p>
                                 Kubernetes, Docker, Argo CD, GitLab CI/CD,
-                                Istio, MetalLB, BIG-IP F5, Ansible, Semaphore,
-                                Vault, JumpServer.
+                                Istio, MetalLB, BIG-IP F5, HAProxy, Ansible,
+                                Semaphore, Vault, JumpServer.
                             </p>
                         </li>
 
@@ -224,8 +224,8 @@ export default function About() {
                             </p>
 
                             <p>
-                                Grafana, Prometheus, Loki, Tempo, Mimir,
-                                DataDog.
+                                Grafana, Prometheus, Loki, VictoriaLogs, Tempo,
+                                Mimir, DataDog.
                             </p>
                         </li>
 
